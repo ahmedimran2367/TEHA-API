@@ -1,0 +1,136 @@
+{
+  "userId": 4323,
+  "propertyId": 23333,
+  "payrollYear": 123,
+  "billingInformation": {
+    "averageBoilerTemprature": 32,
+    "heater": {
+      "basicCost": 25,
+      "consumption": 25
+    },
+    "hotWater": {
+      "basicCost": 25,
+      "consumption": 25
+    },
+    "generalElectricity": true,
+    "waterConsumption": 0,
+    "waterWaste": 0
+  },
+  "cost": {
+    "energy": {
+      "items": [
+        {
+          "conceptId": 0,
+          "conceptCode": 1212,
+          "vat": 12324,
+          "description": "string",
+          "splittingType": "string",
+          "totalAmountLastPeriod": 0,
+          "editableInd": true,
+          "cost": [
+            {
+              "costId": 0,
+              "units": "string",
+              "amountNetto": 0,
+              "vat": 0,
+              "consumption": 0,
+              "wageShare": 0,
+              "amountBrutto": 0,
+              "invoiceDate": "string",
+              "comments": "string",
+              "invoiceFileContents": "string",
+              "editableInd": true
+            }
+          ]
+        }
+      ],
+      "openingQuantity": 345,
+      "closingQuantity": 456,
+      "openingAmount": 23456
+    },
+    "heating": [
+      {
+        "conceptId": 0,
+        "conceptCode": 1212,
+        "vat": 12324,
+        "description": "string",
+        "splittingType": "string",
+        "totalAmountLastPeriod": 0,
+        "editableInd": true,
+        "cost": [
+          {
+            "costId": 0,
+            "units": "string",
+            "amountNetto": 0,
+            "vat": 0,
+            "consumption": 0,
+            "wageShare": 0,
+            "amountBrutto": 0,
+            "invoiceDate": "string",
+            "comments": "string",
+            "invoiceFileContents": "string",
+            "editableInd": true
+          }
+        ]
+      }
+    ],
+    "heatingAdditional": [
+      {
+        "conceptId": 0,
+        "conceptCode": 1212,
+        "vat": 12324,
+        "description": "string",
+        "splittingType": "string",
+        "totalAmountLastPeriod": 0,
+        "editableInd": true,
+        "cost": [
+          {
+            "costId": 0,
+            "units": "string",
+            "amountNetto": 0,
+            "vat": 0,
+            "consumption": 0,
+            "wageShare": 0,
+            "amountBrutto": 0,
+            "invoiceDate": "string",
+            "comments": "string",
+            "invoiceFileContents": "string",
+            "editableInd": true
+          }
+        ]
+      }
+    ],
+    "hotWaterAdditional": [
+      {
+        "conceptId": 0,
+        "conceptCode": 1212,
+        "vat": 12324,
+        "description": "string",
+        "splittingType": "string",
+        "totalAmountLastPeriod": 0,
+        "editableInd": true,
+        "cost": [
+          {
+            "costId": 0,
+            "units": "string",
+            "amountNetto": 0,
+            "vat": 0,
+            "consumption": 0,
+            "wageShare": 0,
+            "amountBrutto": 0,
+            "invoiceDate": "string",
+            "comments": "string",
+            "invoiceFileContents": "string",
+            "editableInd": true
+          }
+        ]
+      }
+    ],
+    "additionalCosts": [
+      null
+    ]
+  },
+  "cancellationPolicyInd": true,
+  "confirmTheCompletenessInd": true,
+  "subjectToFeeInd": true
+}

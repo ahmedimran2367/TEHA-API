@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>e4887a7e-aabe-4dc5-ba8d-d97199dd17bf</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <ApplicationInsightsResourceId>/subscriptions/fa8f1eca-6455-4641-a240-f69c20773c2f/resourceGroups/teha-docker-compose/providers/microsoft.insights/components/tehaapi202105171523</ApplicationInsightsResourceId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="documents.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Couchbase.Lite" Version="2.7.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.14.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="8.10.0.19839">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TEHA.Portal.Common\TEHA.Portal.Common.csproj" />
+    <ProjectReference Include="..\TEHA.Portal.Data\TEHA.Portal.Data.csproj" />
+    <ProjectReference Include="..\TEHA.Portal.ProxyAPI\TEHA.Portal.ProxyAPI.csproj" />
+  </ItemGroup>
+
+</Project>

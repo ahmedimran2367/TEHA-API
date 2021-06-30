@@ -1,0 +1,5404 @@
+{
+  "BITLogix.Core.Couchbase.dll": {
+    "D:\\TEHA\\teha-portal-api\\Core\\BITLogix.Core.Couchbase\\DbClient.cs": {
+      "BITLogix.Core.Couchbase.DbClient`1": {
+        "System.Void BITLogix.Core.Couchbase.DbClient`1::OnDataBaseChanged(System.Object,Couchbase.Lite.DatabaseChangedEventArgs)": {
+          "Lines": {
+            "59": 0,
+            "60": 0,
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "66": 0
+          },
+          "Branches": []
+        },
+        "System.Void BITLogix.Core.Couchbase.DbClient`1::Delete(TEntity)": {
+          "Lines": {
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0
+          },
+          "Branches": []
+        },
+        "System.Void BITLogix.Core.Couchbase.DbClient`1::Insert(TEntity)": {
+          "Lines": {
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0
+          },
+          "Branches": []
+        },
+        "System.Void BITLogix.Core.Couchbase.DbClient`1::Update(TEntity)": {
+          "Lines": {
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<TEntity> BITLogix.Core.Couchbase.DbClient`1::GetAll()": {
+          "Lines": {
+            "128": 0,
+            "129": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<TEntity> BITLogix.Core.Couchbase.DbClient`1::Where(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Boolean>>)": {
+          "Lines": {
+            "141": 0,
+            "142": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0
+          },
+          "Branches": []
+        },
+        "TEntity BITLogix.Core.Couchbase.DbClient`1::FirstOrDefault(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Boolean>>)": {
+          "Lines": {
+            "154": 0,
+            "155": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0
+          },
+          "Branches": []
+        },
+        "TEntity BITLogix.Core.Couchbase.DbClient`1::SingleOrDefault(System.Linq.Expressions.Expression`1<System.Func`2<TEntity,System.Boolean>>)": {
+          "Lines": {
+            "167": 0,
+            "168": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0
+          },
+          "Branches": []
+        },
+        "System.Void BITLogix.Core.Couchbase.DbClient`1::.ctor(BITLogix.Core.Couchbase.IConfiguration)": {
+          "Lines": {
+            "28": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0
+          },
+          "Branches": [
+            {
+              "Line": 46,
+              "Offset": 107,
+              "EndOffset": 109,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 107,
+              "EndOffset": 135,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\Core\\BITLogix.Core.Couchbase\\DocumentTypeAttribute.cs": {
+      "BITLogix.Core.Couchbase.DocumentTypeAttribute": {
+        "System.String BITLogix.Core.Couchbase.DocumentTypeAttribute::get_DocumentType()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Void BITLogix.Core.Couchbase.DocumentTypeAttribute::.ctor(System.String)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\Core\\BITLogix.Core.Couchbase\\ElementIdAttribute.cs": {
+      "BITLogix.Core.Couchbase.ElementIdAttribute": {
+        "System.String BITLogix.Core.Couchbase.ElementIdAttribute::get_ElementId()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Void BITLogix.Core.Couchbase.ElementIdAttribute::.ctor(System.String)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\Core\\BITLogix.Core.Couchbase\\CouchResponseBase.cs": {
+      "TEHA.Portal.Data.Models.CouchResponseBase`1": {
+        "System.String TEHA.Portal.Data.Models.CouchResponseBase`1::get_Type()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEntity> TEHA.Portal.Data.Models.CouchResponseBase`1::get_Items()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "TEHA.Portal.API.dll": {
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Helpers\\JWTTokenGenerator.cs": {
+      "MWCIA.OAR.API.JwtTokenGenerator": {
+        "System.String MWCIA.OAR.API.JwtTokenGenerator::GenerateToken(System.String,System.String)": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": []
+        },
+        "System.String MWCIA.OAR.API.JwtTokenGenerator::GenerateRefreshToken(System.String,System.String)": {
+          "Lines": {
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Configuration.cs": {
+      "TEHA.Portal.API.Configuration": {
+        "System.String TEHA.Portal.API.Configuration::get_DatabaseName()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.API.Configuration::get_DocumentsFilename()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean TEHA.Portal.API.Configuration::get_UpdateDocumentsInd()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.API.Configuration::get_Secret()": {
+          "Lines": {
+            "45": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.API.Configuration::Get(System.String)": {
+          "Lines": {
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "60": 0,
+            "61": 0,
+            "63": 0
+          },
+          "Branches": [
+            {
+              "Line": 55,
+              "Offset": 23,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 23,
+              "EndOffset": 46,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void TEHA.Portal.API.Configuration::.ctor(Microsoft.Extensions.Configuration.IConfigurationSection)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\DatabaseScripts.cs": {
+      "TEHA.Portal.API.DatabaseScripts": {
+        "System.Void TEHA.Portal.API.DatabaseScripts::Initialize()": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0
+          },
+          "Branches": [
+            {
+              "Line": 37,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 28,
+              "EndOffset": 39,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 52,
+              "EndOffset": 54,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 52,
+              "EndOffset": 63,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void TEHA.Portal.API.DatabaseScripts::CreateDatabase()": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0
+          },
+          "Branches": []
+        },
+        "System.Void TEHA.Portal.API.DatabaseScripts::GenerateDocuments()": {
+          "Lines": {
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "71": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0
+          },
+          "Branches": [
+            {
+              "Line": 73,
+              "Offset": 263,
+              "EndOffset": 105,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 263,
+              "EndOffset": 268,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void TEHA.Portal.API.DatabaseScripts::.ctor(BITLogix.Core.Couchbase.IConfiguration)": {
+          "Lines": {
+            "20": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Program.cs": {
+      "TEHA.Portal.API.Program": {
+        "System.Void TEHA.Portal.API.Program::Main(System.String[])": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder TEHA.Portal.API.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Startup.cs": {
+      "TEHA.Portal.API.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration TEHA.Portal.API.Startup::get_Configuration()": {
+          "Lines": {
+            "45": 0
+          },
+          "Branches": []
+        },
+        "System.Void TEHA.Portal.API.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "53": 0,
+            "54": 0,
+            "57": 0,
+            "60": 0,
+            "61": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "68": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "81": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0
+          },
+          "Branches": []
+        },
+        "System.Void TEHA.Portal.API.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Hosting.IHostApplicationLifetime)": {
+          "Lines": {
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "134": 0,
+            "135": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0
+          },
+          "Branches": [
+            {
+              "Line": 122,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 122,
+              "Offset": 22,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void TEHA.Portal.API.Startup::JwtSettings(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0
+          },
+          "Branches": []
+        },
+        "System.Void TEHA.Portal.API.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Helpers\\ApiResponse.cs": {
+      "TEHA.Portal.API.Helpers.ApiResponse": {
+        "Microsoft.AspNetCore.Mvc.ActionResult TEHA.Portal.API.Helpers.ApiResponse::Result(Microsoft.AspNetCore.Mvc.ControllerBase,TEHA.Portal.API.Helpers.ResponseStatus,T,System.String)": {
+          "Lines": {
+            "87": 4,
+            "88": 4,
+            "89": 4,
+            "90": 4,
+            "91": 4,
+            "92": 4,
+            "93": 4,
+            "94": 4
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.ActionResult TEHA.Portal.API.Helpers.ApiResponse::Result(Microsoft.AspNetCore.Mvc.ControllerBase,TEHA.Portal.API.Helpers.ResponseStatus,System.Object,System.String)": {
+          "Lines": {
+            "105": 3,
+            "106": 3,
+            "107": 3,
+            "108": 3,
+            "109": 3,
+            "110": 3,
+            "111": 3,
+            "112": 3
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Helpers.ApiResponse/<Result>d__2`1": {
+        "System.Void TEHA.Portal.API.Helpers.ApiResponse/<Result>d__2`1::MoveNext()": {
+          "Lines": {
+            "122": 7,
+            "123": 7,
+            "124": 4,
+            "125": 4,
+            "126": 4,
+            "127": 0,
+            "128": 0,
+            "131": 4,
+            "132": 4,
+            "134": 3,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "140": 3,
+            "141": 3,
+            "142": 3,
+            "143": 3,
+            "144": 3,
+            "147": 0,
+            "148": 0,
+            "150": 7
+          },
+          "Branches": [
+            {
+              "Line": 123,
+              "Offset": 69,
+              "EndOffset": 74,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 126,
+              "Offset": 221,
+              "EndOffset": 223,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 126,
+              "Offset": 221,
+              "EndOffset": 244,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 4
+            },
+            {
+              "Line": 123,
+              "Offset": 69,
+              "EndOffset": 291,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 134,
+              "Offset": 313,
+              "EndOffset": 318,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 134,
+              "Offset": 313,
+              "EndOffset": 492,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            },
+            {
+              "Line": 142,
+              "Offset": 642,
+              "EndOffset": 644,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 3
+            },
+            {
+              "Line": 144,
+              "Offset": 665,
+              "EndOffset": 667,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 144,
+              "Offset": 665,
+              "EndOffset": 673,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 3
+            },
+            {
+              "Line": 142,
+              "Offset": 642,
+              "EndOffset": 684,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Helpers\\AutoMapping.cs": {
+      "TEHA.Portal.API.Helpers.AutoMapping": {
+        "System.Void TEHA.Portal.API.Helpers.AutoMapping::.ctor()": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Helpers\\JwtMiddleware.cs": {
+      "TEHA.Portal.API.Helpers.JwtMiddleware": {
+        "System.Void TEHA.Portal.API.Helpers.JwtMiddleware::AttachUserToContext(Microsoft.AspNetCore.Http.HttpContext,System.String)": {
+          "Lines": {
+            "53": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "69": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "80": 0,
+            "81": 0
+          },
+          "Branches": []
+        },
+        "System.Void TEHA.Portal.API.Helpers.JwtMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,TEHA.Portal.API.Configuration)": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Helpers.JwtMiddleware/<Invoke>d__3": {
+        "System.Void TEHA.Portal.API.Helpers.JwtMiddleware/<Invoke>d__3::MoveNext()": {
+          "Lines": {
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 56,
+              "EndOffset": 58,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 56,
+              "EndOffset": 62,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 94,
+              "EndOffset": 96,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 94,
+              "EndOffset": 122,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Helpers\\Response.cs": {
+      "TEHA.Portal.API.Helpers.Response`1": {
+        "TEHA.Portal.API.Helpers.ResponseStatus TEHA.Portal.API.Helpers.Response`1::get_Status()": {
+          "Lines": {
+            "42": 22
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.API.Helpers.Response`1::get_Message()": {
+          "Lines": {
+            "47": 18
+          },
+          "Branches": []
+        },
+        "T TEHA.Portal.API.Helpers.Response`1::get_Data()": {
+          "Lines": {
+            "52": 22
+          },
+          "Branches": []
+        },
+        "System.Void TEHA.Portal.API.Helpers.Response`1::.ctor()": {
+          "Lines": {
+            "25": 11,
+            "26": 11,
+            "27": 11,
+            "28": 11
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Helpers.Response`1/<>c": {
+        "Newtonsoft.Json.JsonSerializerSettings TEHA.Portal.API.Helpers.Response`1/<>c::<ExecuteResultAsync>b__14_0()": {
+          "Lines": {
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0
+          },
+          "Branches": [
+            {
+              "Line": 66,
+              "Offset": 102,
+              "EndOffset": 104,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 102,
+              "EndOffset": 127,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Controllers\\AccountController.cs": {
+      "TEHA.Portal.API.Controllers.AccountController": {
+        "System.Void TEHA.Portal.API.Controllers.AccountController::.ctor(TEHA.Portal.ProxyAPI.Clients.Account.IAccountClient,AutoMapper.IMapper,TEHA.Portal.API.Configuration)": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.AccountController/<GetUserContactInformation>d__4": {
+        "System.Void TEHA.Portal.API.Controllers.AccountController/<GetUserContactInformation>d__4::MoveNext()": {
+          "Lines": {
+            "62": 0,
+            "63": 0,
+            "64": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.AccountController/<GetProfileDetail>d__5": {
+        "System.Void TEHA.Portal.API.Controllers.AccountController/<GetProfileDetail>d__5::MoveNext()": {
+          "Lines": {
+            "79": 0,
+            "80": 0,
+            "81": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.AccountController/<ForgotPassword>d__6": {
+        "System.Void TEHA.Portal.API.Controllers.AccountController/<ForgotPassword>d__6::MoveNext()": {
+          "Lines": {
+            "94": 0,
+            "95": 0,
+            "96": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.AccountController/<Authenticate>d__7": {
+        "System.Void TEHA.Portal.API.Controllers.AccountController/<Authenticate>d__7::MoveNext()": {
+          "Lines": {
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "138": 0
+          },
+          "Branches": [
+            {
+              "Line": 113,
+              "Offset": 73,
+              "EndOffset": 75,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 113,
+              "Offset": 73,
+              "EndOffset": 104,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 119,
+              "Offset": 263,
+              "EndOffset": 268,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 119,
+              "Offset": 263,
+              "EndOffset": 599,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 128,
+              "Offset": 621,
+              "EndOffset": 626,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 128,
+              "Offset": 621,
+              "EndOffset": 800,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "TEHA.Portal.API.Controllers.AccountController/<UpdateContactInfomation>d__8": {
+        "System.Void TEHA.Portal.API.Controllers.AccountController/<UpdateContactInfomation>d__8::MoveNext()": {
+          "Lines": {
+            "155": 0,
+            "156": 0,
+            "157": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.AccountController/<ChangePassword>d__9": {
+        "System.Void TEHA.Portal.API.Controllers.AccountController/<ChangePassword>d__9::MoveNext()": {
+          "Lines": {
+            "174": 0,
+            "175": 0,
+            "176": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.AccountController/<UpdateMemberProperties>d__10": {
+        "System.Void TEHA.Portal.API.Controllers.AccountController/<UpdateMemberProperties>d__10::MoveNext()": {
+          "Lines": {
+            "193": 0,
+            "194": 0,
+            "195": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.AccountController/<UpdateGeneralSetting>d__11": {
+        "System.Void TEHA.Portal.API.Controllers.AccountController/<UpdateGeneralSetting>d__11::MoveNext()": {
+          "Lines": {
+            "212": 0,
+            "213": 0,
+            "214": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Controllers\\AccountingController.cs": {
+      "TEHA.Portal.API.Controllers.AccountingController": {
+        "System.Void TEHA.Portal.API.Controllers.AccountingController::.ctor(TEHA.Portal.ProxyAPI.Clients.Accounting.IAccountingClient)": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.AccountingController/<Get>d__2": {
+        "System.Void TEHA.Portal.API.Controllers.AccountingController/<Get>d__2::MoveNext()": {
+          "Lines": {
+            "48": 0,
+            "49": 0,
+            "50": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.AccountingController/<GetFlatCurrentUserInfo>d__3": {
+        "System.Void TEHA.Portal.API.Controllers.AccountingController/<GetFlatCurrentUserInfo>d__3::MoveNext()": {
+          "Lines": {
+            "66": 0,
+            "67": 0,
+            "68": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.AccountingController/<Submit>d__4": {
+        "System.Void TEHA.Portal.API.Controllers.AccountingController/<Submit>d__4::MoveNext()": {
+          "Lines": {
+            "84": 0,
+            "85": 0,
+            "86": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Controllers\\ApiControllerBase.cs": {
+      "TEHA.Portal.API.Controllers.ApiControllerBase": {
+        "TEHA.Portal.Data.Models.Account.User TEHA.Portal.API.Controllers.ApiControllerBase::get_CurrentUser()": {
+          "Lines": {
+            "35": 7,
+            "36": 7,
+            "37": 7,
+            "39": 7,
+            "40": 7,
+            "41": 7,
+            "42": 7,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "55": 0,
+            "56": 0,
+            "58": 7
+          },
+          "Branches": [
+            {
+              "Line": 36,
+              "Offset": 12,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 7
+            },
+            {
+              "Line": 39,
+              "Offset": 45,
+              "EndOffset": 47,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 7
+            },
+            {
+              "Line": 39,
+              "Offset": 45,
+              "EndOffset": 71,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 98,
+              "EndOffset": 102,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 98,
+              "EndOffset": 146,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 166,
+              "EndOffset": 170,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 166,
+              "EndOffset": 224,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 255,
+              "EndOffset": 257,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 264,
+              "EndOffset": 268,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 264,
+              "EndOffset": 304,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 255,
+              "EndOffset": 331,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 12,
+              "EndOffset": 340,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void TEHA.Portal.API.Controllers.ApiControllerBase::.ctor()": {
+          "Lines": {
+            "25": 7,
+            "26": 7,
+            "27": 7
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Controllers\\ContractController.cs": {
+      "TEHA.Portal.API.Controllers.ContractController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.ContractController::GetContractDocument(System.Int32,System.Int32,System.Int32)": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.ContractController::Search(System.Int32,System.Int32)": {
+          "Lines": {
+            "49": 0,
+            "50": 0,
+            "51": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Controllers\\DashboardController.cs": {
+      "TEHA.Portal.API.Controllers.DashboardController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.DashboardController::Get(System.Int32)": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Controllers\\DefaultDataController.cs": {
+      "TEHA.Portal.API.Controllers.DefaultDataController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.DefaultDataController::Get()": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Controllers\\DocumentArchivesController.cs": {
+      "TEHA.Portal.API.Controllers.DocumentArchivesController": {
+        "System.Void TEHA.Portal.API.Controllers.DocumentArchivesController::.ctor(TEHA.Portal.ProxyAPI.Clients.Document.IDocumentClient)": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.DocumentArchivesController/<GetDocuments>d__2": {
+        "System.Void TEHA.Portal.API.Controllers.DocumentArchivesController/<GetDocuments>d__2::MoveNext()": {
+          "Lines": {
+            "49": 0,
+            "50": 0,
+            "51": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.DocumentArchivesController/<GetSEPADocument>d__3": {
+        "System.Void TEHA.Portal.API.Controllers.DocumentArchivesController/<GetSEPADocument>d__3::MoveNext()": {
+          "Lines": {
+            "69": 0,
+            "70": 0,
+            "71": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.DocumentArchivesController/<GetAllSEPADocuments>d__4": {
+        "System.Void TEHA.Portal.API.Controllers.DocumentArchivesController/<GetAllSEPADocuments>d__4::MoveNext()": {
+          "Lines": {
+            "86": 0,
+            "87": 0,
+            "88": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.DocumentArchivesController/<GetDocumentContent>d__5": {
+        "System.Void TEHA.Portal.API.Controllers.DocumentArchivesController/<GetDocumentContent>d__5::MoveNext()": {
+          "Lines": {
+            "106": 0,
+            "107": 0,
+            "108": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.DocumentArchivesController/<GetInvoices>d__6": {
+        "System.Void TEHA.Portal.API.Controllers.DocumentArchivesController/<GetInvoices>d__6::MoveNext()": {
+          "Lines": {
+            "125": 0,
+            "126": 0,
+            "127": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Controllers\\InfoController.cs": {
+      "TEHA.Portal.API.Controllers.InfoController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.InfoController::GetContactPersons(System.Int32)": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.InfoController::GetPayRollYear(System.Int32,System.Int32)": {
+          "Lines": {
+            "48": 0,
+            "49": 0,
+            "50": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Controllers\\OrderController.cs": {
+      "TEHA.Portal.API.Controllers.OrderController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.OrderController::Get(TEHA.Portal.Data.Models.Order.OrderRequest)": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.OrderController::RequestInterimReading(TEHA.Portal.Data.Models.Order.ReadingRequest)": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.OrderController::RequestOffer(TEHA.Portal.Data.Models.Order.OfferRequest)": {
+          "Lines": {
+            "71": 0,
+            "72": 0,
+            "73": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.OrderController::RequestPlumbing(TEHA.Portal.Data.Models.Order.PlumbingRequest)": {
+          "Lines": {
+            "90": 0,
+            "91": 0,
+            "92": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.OrderController::PostInterimReading(TEHA.Portal.Data.Models.Order.InterimReadingSelf)": {
+          "Lines": {
+            "109": 0,
+            "110": 0,
+            "111": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.OrderController::RequestReading(TEHA.Portal.Data.Models.Order.ReadingRequest)": {
+          "Lines": {
+            "126": 0,
+            "127": 0,
+            "128": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.OrderController::RequestDrinkingWaterSampling(TEHA.Portal.Data.Models.Order.WaterSamplingRequest)": {
+          "Lines": {
+            "145": 0,
+            "146": 0,
+            "147": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.OrderController::RequestEnergyPerformanceCertificate(TEHA.Portal.Data.Models.Order.PerformanceCertificate)": {
+          "Lines": {
+            "164": 0,
+            "165": 0,
+            "166": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.OrderController::RequestSmokeDetectorTest(TEHA.Portal.Data.Models.Order.PlumbingRequest)": {
+          "Lines": {
+            "183": 0,
+            "184": 0,
+            "185": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.OrderController::Cancel(System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>)": {
+          "Lines": {
+            "202": 0,
+            "203": 0,
+            "204": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Controllers\\StockOverviewController.cs": {
+      "TEHA.Portal.API.Controllers.StockOverviewController": {
+        "System.Void TEHA.Portal.API.Controllers.StockOverviewController::.ctor(TEHA.Portal.ProxyAPI.Clients.StockOverview.IStockOverviewClient)": {
+          "Lines": {
+            "28": 7,
+            "29": 7,
+            "30": 7,
+            "31": 7
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.StockOverviewController/<GetSummary>d__2": {
+        "System.Void TEHA.Portal.API.Controllers.StockOverviewController/<GetSummary>d__2::MoveNext()": {
+          "Lines": {
+            "44": 2,
+            "45": 2,
+            "46": 2
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.StockOverviewController/<GetOpenLetter>d__3": {
+        "System.Void TEHA.Portal.API.Controllers.StockOverviewController/<GetOpenLetter>d__3::MoveNext()": {
+          "Lines": {
+            "63": 2,
+            "64": 2,
+            "65": 2
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.StockOverviewController/<GetProperties>d__4": {
+        "System.Void TEHA.Portal.API.Controllers.StockOverviewController/<GetProperties>d__4::MoveNext()": {
+          "Lines": {
+            "81": 2,
+            "82": 2,
+            "83": 2
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.API.Controllers.StockOverviewController/<GetFlats>d__5": {
+        "System.Void TEHA.Portal.API.Controllers.StockOverviewController/<GetFlats>d__5::MoveNext()": {
+          "Lines": {
+            "99": 1,
+            "100": 1,
+            "101": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Controllers\\Administration\\EmailTemplateController.cs": {
+      "TEHA.Portal.API.Controllers.Administration.EmailTemplateController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.Administration.EmailTemplateController::Get()": {
+          "Lines": {
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "51": 0,
+            "52": 0
+          },
+          "Branches": [
+            {
+              "Line": 46,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 19,
+              "EndOffset": 34,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.Administration.EmailTemplateController::Update(TEHA.Portal.Data.Models.Administration.EmailTemplate)": {
+          "Lines": {
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0
+          },
+          "Branches": [
+            {
+              "Line": 66,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 7,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void TEHA.Portal.API.Controllers.Administration.EmailTemplateController::.ctor(TEHA.Portal.Data.Services.Administration.EmailTemplateService)": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Controllers\\Administration\\LanguageController.cs": {
+      "TEHA.Portal.API.Controllers.Administration.LanguageController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.Administration.LanguageController::Get()": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.Administration.LanguageController::Update(TEHA.Portal.Data.Models.Administration.Language)": {
+          "Lines": {
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0
+          },
+          "Branches": []
+        },
+        "System.Void TEHA.Portal.API.Controllers.Administration.LanguageController::.ctor(TEHA.Portal.Data.Services.Administration.LanguageService)": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Controllers\\Administration\\LookupController.cs": {
+      "TEHA.Portal.API.Controllers.Administration.LookupController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.Administration.LookupController::Get()": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.Administration.LookupController::Update(TEHA.Portal.Data.Models.Administration.LookUps)": {
+          "Lines": {
+            "45": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.API\\Controllers\\Administration\\SettingController.cs": {
+      "TEHA.Portal.API.Controllers.Administration.SettingController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.Administration.SettingController::Get()": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult TEHA.Portal.API.Controllers.Administration.SettingController::Update(TEHA.Portal.Data.Models.Administration.SystemSetting)": {
+          "Lines": {
+            "59": 0,
+            "60": 0,
+            "61": 0
+          },
+          "Branches": []
+        },
+        "System.Void TEHA.Portal.API.Controllers.Administration.SettingController::.ctor(TEHA.Portal.Data.Services.Administration.SystemSettingService)": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "TEHA.Portal.Data.dll": {
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\ProxyResponse.cs": {
+      "TEHA.Portal.Data.ProxyResponse`1": {
+        "System.String TEHA.Portal.Data.ProxyResponse`1::get_Status()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.ProxyResponse`1::get_Message()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "T TEHA.Portal.Data.ProxyResponse`1::get_Data()": {
+          "Lines": {
+            "26": 11
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.ProxyResponse`1::get_Error()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Services\\Administration\\EmailTemplateService.cs": {
+      "TEHA.Portal.Data.Services.Administration.EmailTemplateService": {
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.EmailTemplate> TEHA.Portal.Data.Services.Administration.EmailTemplateService::GetAll()": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.Void TEHA.Portal.Data.Services.Administration.EmailTemplateService::Update(TEHA.Portal.Data.Models.Administration.EmailTemplate)": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": []
+        },
+        "System.Void TEHA.Portal.Data.Services.Administration.EmailTemplateService::.ctor(BITLogix.Core.Couchbase.IConfiguration)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Services\\Administration\\LanguageService.cs": {
+      "TEHA.Portal.Data.Services.Administration.LanguageService": {
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.Language> TEHA.Portal.Data.Services.Administration.LanguageService::GetAll()": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.Void TEHA.Portal.Data.Services.Administration.LanguageService::Update(TEHA.Portal.Data.Models.Administration.Language)": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": []
+        },
+        "System.Void TEHA.Portal.Data.Services.Administration.LanguageService::.ctor(BITLogix.Core.Couchbase.IConfiguration)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Services\\Administration\\SystemSettingService.cs": {
+      "TEHA.Portal.Data.Services.Administration.SystemSettingService": {
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.SystemSetting> TEHA.Portal.Data.Services.Administration.SystemSettingService::GetAll()": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.Void TEHA.Portal.Data.Services.Administration.SystemSettingService::Update(TEHA.Portal.Data.Models.Administration.SystemSetting)": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": []
+        },
+        "System.Void TEHA.Portal.Data.Services.Administration.SystemSettingService::.ctor(BITLogix.Core.Couchbase.IConfiguration)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Validation\\Error.cs": {
+      "TEHA.Portal.Data.Models.Validation.Error": {
+        "System.String TEHA.Portal.Data.Models.Validation.Error::get_Code()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Validation.Error::get_Description()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Enums.Severity TEHA.Portal.Data.Models.Validation.Error::get_Severity()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Validation\\Response.cs": {
+      "TEHA.Portal.Data.Models.Validation.Response": {
+        "System.String TEHA.Portal.Data.Models.Validation.Response::get_Status()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Validation.Response::get_Message()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Validation.Error> TEHA.Portal.Data.Models.Validation.Response::get_Errors()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\StockOverview\\FlatRequest.cs": {
+      "TEHA.Portal.Data.Models.StockOverview.FlatRequest": {
+        "System.Int32 TEHA.Portal.Data.Models.StockOverview.FlatRequest::get_UserId()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<System.Int32> TEHA.Portal.Data.Models.StockOverview.FlatRequest::get_PropertyIds()": {
+          "Lines": {
+            "25": 2
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<System.Nullable`1<System.Int32>> TEHA.Portal.Data.Models.StockOverview.FlatRequest::get_FlatIds()": {
+          "Lines": {
+            "30": 2
+          },
+          "Branches": []
+        },
+        "System.Boolean TEHA.Portal.Data.Models.StockOverview.FlatRequest::get_IncludeChildren()": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\StockOverview\\MeterStatus.cs": {
+      "TEHA.Portal.Data.Models.StockOverview.MeterStatus": {
+        "System.String TEHA.Portal.Data.Models.StockOverview.MeterStatus::get_Type()": {
+          "Lines": {
+            "17": 30
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.StockOverview.MeterStatus::get_Count()": {
+          "Lines": {
+            "22": 30
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<TEHA.Portal.Data.Enums.Status> TEHA.Portal.Data.Models.StockOverview.MeterStatus::get_Status()": {
+          "Lines": {
+            "27": 30
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\StockOverview\\Summary.cs": {
+      "TEHA.Portal.Data.Models.StockOverview.Summary": {
+        "System.Decimal TEHA.Portal.Data.Models.StockOverview.Summary::get_BuildingsCount()": {
+          "Lines": {
+            "19": 3
+          },
+          "Branches": []
+        },
+        "System.Decimal TEHA.Portal.Data.Models.StockOverview.Summary::get_FlatsCount()": {
+          "Lines": {
+            "25": 3
+          },
+          "Branches": []
+        },
+        "System.Decimal TEHA.Portal.Data.Models.StockOverview.Summary::get_MetersCount()": {
+          "Lines": {
+            "31": 3
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.StockOverview.MeterStatus> TEHA.Portal.Data.Models.StockOverview.Summary::get_MetersByType()": {
+          "Lines": {
+            "37": 5
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Order\\CertificateHotWaterDetail.cs": {
+      "TEHA.Portal.Data.Models.Order.CertificateHotWaterDetail": {
+        "System.String TEHA.Portal.Data.Models.Order.CertificateHotWaterDetail::get_Period()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Order.CertificateHotWaterDetail::get_Amount()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.CertificateHotWaterDetail::get_Unit()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Order\\CertificateThermalEnergy.cs": {
+      "TEHA.Portal.Data.Models.Order.CertificateThermalEnergy": {
+        "System.String TEHA.Portal.Data.Models.Order.CertificateThermalEnergy::get_Period()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Order.CertificateThermalEnergy::get_Amount()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.CertificateThermalEnergy::get_Unit()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Order.CertificateThermalEnergy::get_VacancyPercentage()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Order\\InterimReadingSelf.cs": {
+      "TEHA.Portal.Data.Models.Order.InterimReadingSelf": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.InterimReadingSelf::get_UserId()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.InterimReadingSelf::get_PropertyId()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.InterimReadingSelf::get_FlatId()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.InterimReadingSelf::get_StatementDate()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.InterimReadingSelf::get_CurrentUserName()": {
+          "Lines": {
+            "46": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.InterimReadingSelf::get_NewUserName()": {
+          "Lines": {
+            "52": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.InterimReadingSelf::get_MoveInDate()": {
+          "Lines": {
+            "58": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Order.MeterReading> TEHA.Portal.Data.Models.Order.InterimReadingSelf::get_MeterReadings()": {
+          "Lines": {
+            "64": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Order.InterimReadingSelf::get_TermsInd()": {
+          "Lines": {
+            "70": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Order.InterimReadingSelf::get_CostsInd()": {
+          "Lines": {
+            "76": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Order.InterimReadingSelf::get_DataProtectionInd()": {
+          "Lines": {
+            "82": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Order\\MeterReading.cs": {
+      "TEHA.Portal.Data.Models.Order.MeterReading": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.MeterReading::get_MeterId()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.MeterReading::get_Value()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.MeterReading::get_Image()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Order\\OfferContact.cs": {
+      "TEHA.Portal.Data.Models.Order.OfferContact": {
+        "System.String TEHA.Portal.Data.Models.Order.OfferContact::get_FirstName()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.OfferContact::get_LastName()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.OfferContact::get_HouseNumber()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.OfferContact::get_Street()": {
+          "Lines": {
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.OfferContact::get_Postcode()": {
+          "Lines": {
+            "48": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.OfferContact::get_Place()": {
+          "Lines": {
+            "55": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.OfferContact::get_Phone()": {
+          "Lines": {
+            "62": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.OfferContact::get_Email()": {
+          "Lines": {
+            "69": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<TEHA.Portal.Data.Enums.ContactPersonTyp> TEHA.Portal.Data.Models.Order.OfferContact::get_Type()": {
+          "Lines": {
+            "76": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.OfferContact::get_OtherTypeDescription()": {
+          "Lines": {
+            "82": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Order\\OfferProperty.cs": {
+      "TEHA.Portal.Data.Models.Order.OfferProperty": {
+        "System.String TEHA.Portal.Data.Models.Order.OfferProperty::get_HouseNumber()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.OfferProperty::get_Street()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.OfferProperty::get_Postcode()": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.OfferProperty::get_Place()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<TEHA.Portal.Data.Enums.PropertyType> TEHA.Portal.Data.Models.Order.OfferProperty::get_Type()": {
+          "Lines": {
+            "47": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.OfferProperty::get_AppartmentCount()": {
+          "Lines": {
+            "53": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.OfferProperty::get_CommercialUnitCount()": {
+          "Lines": {
+            "59": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Order\\OfferRequest.cs": {
+      "TEHA.Portal.Data.Models.Order.OfferRequest": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.OfferRequest::get_UserId()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Order.OfferProperty TEHA.Portal.Data.Models.Order.OfferRequest::get_PropertyAddress()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Order.OfferContact TEHA.Portal.Data.Models.Order.OfferRequest::get_ContactDetails()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Enums.OfferContractType> TEHA.Portal.Data.Models.Order.OfferRequest::get_ContractType()": {
+          "Lines": {
+            "39": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<System.String> TEHA.Portal.Data.Models.Order.OfferRequest::get_ServiceTypes()": {
+          "Lines": {
+            "46": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Order.OfferRequestMeterTypes> TEHA.Portal.Data.Models.Order.OfferRequest::get_MeterTypes()": {
+          "Lines": {
+            "52": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.OfferRequest::get_MeasuringDeviceRequirement()": {
+          "Lines": {
+            "58": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Order\\OfferRequestMeterTypes.cs": {
+      "TEHA.Portal.Data.Models.Order.OfferRequestMeterTypes": {
+        "System.String TEHA.Portal.Data.Models.Order.OfferRequestMeterTypes::get_Type()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.OfferRequestMeterTypes::get_Count()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Order\\Order.cs": {
+      "TEHA.Portal.Data.Models.Order.Order": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.Order::get_Id()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.Order::get_TehaLgNo()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.Order::get_AdminLgNo()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.Order::get_TehaUserNo()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.Order::get_AdminUserNo()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.Order::get_Type()": {
+          "Lines": {
+            "46": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.Order::get_Status()": {
+          "Lines": {
+            "52": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Order\\OrderRequest.cs": {
+      "TEHA.Portal.Data.Models.Order.OrderRequest": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.OrderRequest::get_UserId()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.OrderRequest::get_TehaLgNo()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.OrderRequest::get_AdminLgNo()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.OrderRequest::get_TehaUserNo()": {
+          "Lines": {
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.OrderRequest::get_AdminUserNo()": {
+          "Lines": {
+            "43": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Order.OrderRequest::get_PageNo()": {
+          "Lines": {
+            "48": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Order.OrderRequest::get_PageSize()": {
+          "Lines": {
+            "54": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Common.Sort TEHA.Portal.Data.Models.Order.OrderRequest::get_Sort()": {
+          "Lines": {
+            "59": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Order\\OrderResponse.cs": {
+      "TEHA.Portal.Data.Models.Order.OrderResponse": {
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Order.Order> TEHA.Portal.Data.Models.Order.OrderResponse::get_Items()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.OrderResponse::get_CurrentPage()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.OrderResponse::get_TotalRecords()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Order\\PerformanceCertificate.cs": {
+      "TEHA.Portal.Data.Models.Order.PerformanceCertificate": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_UserId()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_PropertyId()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_BuildingType()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_YearOfConstruction()": {
+          "Lines": {
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_MonumentProtectionInd()": {
+          "Lines": {
+            "47": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_AmountOfHotWaterUsed()": {
+          "Lines": {
+            "53": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_MeasurmentWithWWZInd()": {
+          "Lines": {
+            "59": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_RenewalOfHeating()": {
+          "Lines": {
+            "65": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_BuildingCooledInd()": {
+          "Lines": {
+            "71": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Single> TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_HeatableUsableArea()": {
+          "Lines": {
+            "77": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_NoOfResidentialUnits()": {
+          "Lines": {
+            "83": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<TEHA.Portal.Data.Enums.BuildingWithBasement> TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_BuildingWithBasement()": {
+          "Lines": {
+            "89": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_BasementHeatedInd()": {
+          "Lines": {
+            "95": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<TEHA.Portal.Data.Enums.HeatingSystem> TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_HeatingSystem()": {
+          "Lines": {
+            "101": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_EnergySource()": {
+          "Lines": {
+            "107": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_FacadeInsulationYear()": {
+          "Lines": {
+            "113": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_RoofInsulationYear()": {
+          "Lines": {
+            "119": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_SolarSystemYear()": {
+          "Lines": {
+            "125": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Order.CertificateThermalEnergy> TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_ThermalEnergy()": {
+          "Lines": {
+            "131": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Order.CertificateHotWaterDetail> TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_HotWater()": {
+          "Lines": {
+            "137": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Order.PerformanceCertificate::get_HotWaterIncludedInd()": {
+          "Lines": {
+            "143": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Order\\PlumbingRequest.cs": {
+      "TEHA.Portal.Data.Models.Order.PlumbingRequest": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.PlumbingRequest::get_UserId()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.PlumbingRequest::get_PropertyId()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.PlumbingRequest::get_FlatId()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.PlumbingRequest::get_MeterId()": {
+          "Lines": {
+            "42": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Common.ContactPerson TEHA.Portal.Data.Models.Order.PlumbingRequest::get_AlternativePerson()": {
+          "Lines": {
+            "47": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.PlumbingRequest::get_AppointmentDate()": {
+          "Lines": {
+            "53": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Common.DateRange TEHA.Portal.Data.Models.Order.PlumbingRequest::get_AlternativeDateRange()": {
+          "Lines": {
+            "58": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Common.DateRange TEHA.Portal.Data.Models.Order.PlumbingRequest::get_PreferredTimeRange()": {
+          "Lines": {
+            "63": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<TEHA.Portal.Data.Enums.PlumbingReason> TEHA.Portal.Data.Models.Order.PlumbingRequest::get_Reason()": {
+          "Lines": {
+            "69": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Common.CommunicationMode TEHA.Portal.Data.Models.Order.PlumbingRequest::get_CommunicationMode()": {
+          "Lines": {
+            "74": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.PlumbingRequest::get_Comments()": {
+          "Lines": {
+            "80": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Order.PlumbingRequest::get_TermsInd()": {
+          "Lines": {
+            "86": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Order.PlumbingRequest::get_CostsInd()": {
+          "Lines": {
+            "92": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Order.PlumbingRequest::get_DataProtectionInd()": {
+          "Lines": {
+            "98": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Order\\ReadingRequest.cs": {
+      "TEHA.Portal.Data.Models.Order.ReadingRequest": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.ReadingRequest::get_UserId()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.ReadingRequest::get_PropertyId()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.ReadingRequest::get_FlatId()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> TEHA.Portal.Data.Models.Order.ReadingRequest::get_DateOfChangeOfUser()": {
+          "Lines": {
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> TEHA.Portal.Data.Models.Order.ReadingRequest::get_AppointmentDate()": {
+          "Lines": {
+            "43": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Common.ContactPerson TEHA.Portal.Data.Models.Order.ReadingRequest::get_AlternativePerson()": {
+          "Lines": {
+            "48": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Common.DateRange TEHA.Portal.Data.Models.Order.ReadingRequest::get_AlternativeDateRange()": {
+          "Lines": {
+            "53": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Common.DateRange TEHA.Portal.Data.Models.Order.ReadingRequest::get_PreferredTimeRange()": {
+          "Lines": {
+            "58": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Common.CommunicationMode TEHA.Portal.Data.Models.Order.ReadingRequest::get_CommunicationMode()": {
+          "Lines": {
+            "63": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Order.ReadingRequestUserMovingOut TEHA.Portal.Data.Models.Order.ReadingRequest::get_UserMovingOut()": {
+          "Lines": {
+            "68": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Order.ReadingRequestUserMovingIn TEHA.Portal.Data.Models.Order.ReadingRequest::get_UserMovingIn()": {
+          "Lines": {
+            "73": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Order.ReadingRequest::get_TermsInd()": {
+          "Lines": {
+            "79": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Order.ReadingRequest::get_CostsInd()": {
+          "Lines": {
+            "85": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Order.ReadingRequest::get_DataProtectionInd()": {
+          "Lines": {
+            "91": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Order\\ReadingRequestUserMovingIn.cs": {
+      "TEHA.Portal.Data.Models.Order.ReadingRequestUserMovingIn": {
+        "System.String TEHA.Portal.Data.Models.Order.ReadingRequestUserMovingIn::get_Name()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.ReadingRequestUserMovingIn::get_Email()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Order\\ReadingRequestUserMovingOut.cs": {
+      "TEHA.Portal.Data.Models.Order.ReadingRequestUserMovingOut": {
+        "System.String TEHA.Portal.Data.Models.Order.ReadingRequestUserMovingOut::get_Name()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.ReadingRequestUserMovingOut::get_Phone()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.ReadingRequestUserMovingOut::get_Mobile()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Order\\WaterSamplingRequest.cs": {
+      "TEHA.Portal.Data.Models.Order.WaterSamplingRequest": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.WaterSamplingRequest::get_UserId()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Order.WaterSamplingRequest::get_PropertyId()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Order.WaterSamplingRequest::get_Comments()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Order.WaterSamplingRequest::get_TermsInd()": {
+          "Lines": {
+            "39": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Order.WaterSamplingRequest::get_CostsInd()": {
+          "Lines": {
+            "46": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Order.WaterSamplingRequest::get_DataProtectionInd()": {
+          "Lines": {
+            "53": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Info\\PayRollYear.cs": {
+      "TEHA.Portal.Data.Models.Info.PayRollYear": {
+        "System.Int32 TEHA.Portal.Data.Models.Info.PayRollYear::get_Id()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime TEHA.Portal.Data.Models.Info.PayRollYear::get_From()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime TEHA.Portal.Data.Models.Info.PayRollYear::get_To()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Info\\ServiceContactPerson.cs": {
+      "TEHA.Portal.Data.Models.Info.ServiceContactPerson": {
+        "System.String TEHA.Portal.Data.Models.Info.ServiceContactPerson::get_ServiceType()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Info.ServiceContactPerson::get_Name()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Info.ServiceContactPerson::get_Email()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Info.ServiceContactPerson::get_Phone()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Document\\DocumentInfo.cs": {
+      "TEHA.Portal.Data.Models.Document.DocumentInfo": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Document.DocumentInfo::get_PropertyId()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Document.DocumentInfo::get_Id()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Document.DocumentInfo::get_Title()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Document.DocumentInfo::get_Type()": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Document.DocumentInfo::get_AccountingPeriod()": {
+          "Lines": {
+            "42": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> TEHA.Portal.Data.Models.Document.DocumentInfo::get_CreationDate()": {
+          "Lines": {
+            "48": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Document\\Invoice.cs": {
+      "TEHA.Portal.Data.Models.Document.Invoice": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Document.Invoice::get_Id()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Document.Invoice::get_PropertyId()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Document.Invoice::get_InvoiceNo()": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Document.Invoice::get_Title()": {
+          "Lines": {
+            "39": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Document.Invoice::get_Amount()": {
+          "Lines": {
+            "45": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> TEHA.Portal.Data.Models.Document.Invoice::get_Date()": {
+          "Lines": {
+            "51": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<TEHA.Portal.Data.Enums.PaymentStatus> TEHA.Portal.Data.Models.Document.Invoice::get_Status()": {
+          "Lines": {
+            "57": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> TEHA.Portal.Data.Models.Document.Invoice::get_PaidOn()": {
+          "Lines": {
+            "63": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Document.Invoice::get_Balance()": {
+          "Lines": {
+            "69": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Dashboard\\Info.cs": {
+      "TEHA.Portal.Data.Models.Dashboard.Info": {
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Dashboard.News> TEHA.Portal.Data.Models.Dashboard.Info::get_News()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Dashboard.SmokeDetectorCount TEHA.Portal.Data.Models.Dashboard.Info::get_SmokeDetectorCount()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Dashboard.OrdersCount TEHA.Portal.Data.Models.Dashboard.Info::get_OrdersCount()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Dashboard.Info::get_AccountingCount()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Dashboard.ReadingCount TEHA.Portal.Data.Models.Dashboard.Info::get_ReadingCount()": {
+          "Lines": {
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Dashboard.Info::get_OfferRequestCount()": {
+          "Lines": {
+            "42": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Dashboard\\News.cs": {
+      "TEHA.Portal.Data.Models.Dashboard.News": {
+        "System.String TEHA.Portal.Data.Models.Dashboard.News::get_Date()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Dashboard.News::get_Heading()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Dashboard.News::get_Content()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Dashboard\\OrdersCount.cs": {
+      "TEHA.Portal.Data.Models.Dashboard.OrdersCount": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Dashboard.OrdersCount::get_Plumbing()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Dashboard.OrdersCount::get_Reading()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Dashboard.OrdersCount::get_InterimReading()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Dashboard.OrdersCount::get_EnergyCertificate()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Dashboard.OrdersCount::get_DrinkingWaterSampling()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Dashboard.OrdersCount::get_SmokeDetectorTest()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Dashboard\\ReadingCount.cs": {
+      "TEHA.Portal.Data.Models.Dashboard.ReadingCount": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Dashboard.ReadingCount::get_Finalized()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Dashboard.ReadingCount::get_Preparation()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Dashboard\\SmokeDetectorCount.cs": {
+      "TEHA.Portal.Data.Models.Dashboard.SmokeDetectorCount": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Dashboard.SmokeDetectorCount::get_Error()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Dashboard.SmokeDetectorCount::get_Ok()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Contract\\Contract.cs": {
+      "TEHA.Portal.Data.Models.Contract.Contract": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Contract.Contract::get_Id()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Enums.OfferContractType TEHA.Portal.Data.Models.Contract.Contract::get_ContractType()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Contract.Contract::get_StartTime()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Contract.Contract::get_EndTime()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Enums.ServiceType TEHA.Portal.Data.Models.Contract.Contract::get_ServiceType()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Contract.PropertyInfo TEHA.Portal.Data.Models.Contract.Contract::get_Property()": {
+          "Lines": {
+            "46": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Contract\\PropertyInfo.cs": {
+      "TEHA.Portal.Data.Models.Contract.PropertyInfo": {
+        "System.Int32 TEHA.Portal.Data.Models.Contract.PropertyInfo::get_Id()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Contract.PropertyInfo::get_TehaLgNo()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Contract.PropertyInfo::get_AdminLgNo()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Contract.PropertyInfo::get_Street()": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Contract.PropertyInfo::get_Postcode()": {
+          "Lines": {
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Contract.PropertyInfo::get_Place()": {
+          "Lines": {
+            "43": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean TEHA.Portal.Data.Models.Contract.PropertyInfo::get_SepaDocumentInd()": {
+          "Lines": {
+            "48": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Common\\CommunicationMode.cs": {
+      "TEHA.Portal.Data.Models.Common.CommunicationMode": {
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Common.CommunicationMode::get_LetterInd()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Common.CommunicationMode::get_SmsInd()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Common.CommunicationMode::get_EmailInd()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Common.CommunicationMode::get_WebPortalInd()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Common\\ContactPerson.cs": {
+      "TEHA.Portal.Data.Models.Common.ContactPerson": {
+        "System.String TEHA.Portal.Data.Models.Common.ContactPerson::get_FirstName()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.ContactPerson::get_LastName()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.ContactPerson::get_Email()": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.ContactPerson::get_Phone()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.ContactPerson::get_Mobile()": {
+          "Lines": {
+            "47": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Common\\DateRange.cs": {
+      "TEHA.Portal.Data.Models.Common.DateRange": {
+        "System.String TEHA.Portal.Data.Models.Common.DateRange::get_From()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.DateRange::get_To()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Common\\Flat.cs": {
+      "TEHA.Portal.Data.Models.Common.Flat": {
+        "System.Int32 TEHA.Portal.Data.Models.Common.Flat::get_PropertyId()": {
+          "Lines": {
+            "20": 90
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Flat::get_TehaUserNo()": {
+          "Lines": {
+            "25": 60
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Flat::get_AdminUserNo()": {
+          "Lines": {
+            "30": 90
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Flat::get_Location()": {
+          "Lines": {
+            "35": 90
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Common.Flat::get_RwmStatus()": {
+          "Lines": {
+            "40": 60
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Flat::get_ReadingStatus()": {
+          "Lines": {
+            "45": 90
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Flat::get_PlumbingStatus()": {
+          "Lines": {
+            "50": 90
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Flat::get_TestType()": {
+          "Lines": {
+            "55": 90
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> TEHA.Portal.Data.Models.Common.Flat::get_TestDate()": {
+          "Lines": {
+            "60": 90
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Common.Meter> TEHA.Portal.Data.Models.Common.Flat::get_Meters()": {
+          "Lines": {
+            "65": 150
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Common\\FlatResult.cs": {
+      "TEHA.Portal.Data.Models.Common.FlatResult": {
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Common.Flat> TEHA.Portal.Data.Models.Common.FlatResult::get_Items()": {
+          "Lines": {
+            "17": 5
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Common.FlatResult::get_CurrentPage()": {
+          "Lines": {
+            "22": 3
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Common.FlatResult::get_TotalRecords()": {
+          "Lines": {
+            "27": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Common\\Meter.cs": {
+      "TEHA.Portal.Data.Models.Common.Meter": {
+        "System.Int32 TEHA.Portal.Data.Models.Common.Meter::get_FlatId()": {
+          "Lines": {
+            "20": 879
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Enums.MeterType TEHA.Portal.Data.Models.Common.Meter::get_Type()": {
+          "Lines": {
+            "25": 586
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Meter::get_SerialNo()": {
+          "Lines": {
+            "30": 586
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Meter::get_Location()": {
+          "Lines": {
+            "35": 879
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Common.Meter::get_RwmStatus()": {
+          "Lines": {
+            "40": 586
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Meter::get_PlumbingStatus()": {
+          "Lines": {
+            "45": 879
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Meter::get_TestType()": {
+          "Lines": {
+            "50": 879
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> TEHA.Portal.Data.Models.Common.Meter::get_TestDate()": {
+          "Lines": {
+            "55": 879
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Meter::get_Comments()": {
+          "Lines": {
+            "60": 879
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Common\\Property.cs": {
+      "TEHA.Portal.Data.Models.Common.Property": {
+        "System.Int32 TEHA.Portal.Data.Models.Common.Property::get_Id()": {
+          "Lines": {
+            "19": 3
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Property::get_TehaLgNo()": {
+          "Lines": {
+            "24": 3
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Property::get_AdminLgNo()": {
+          "Lines": {
+            "29": 3
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Property::get_Street()": {
+          "Lines": {
+            "34": 3
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Property::get_Postcode()": {
+          "Lines": {
+            "39": 3
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Common.Property::get_RwmStatus()": {
+          "Lines": {
+            "44": 3
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Property::get_BillingStatus()": {
+          "Lines": {
+            "49": 3
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Property::get_ReadingStatus()": {
+          "Lines": {
+            "54": 3
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Property::get_AssemblyStatus()": {
+          "Lines": {
+            "59": 3
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Property::get_Place()": {
+          "Lines": {
+            "64": 3
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Property::get_BillingPeriod()": {
+          "Lines": {
+            "69": 3
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Property::get_Dta()": {
+          "Lines": {
+            "74": 3
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Common.Flat> TEHA.Portal.Data.Models.Common.Property::get_Flats()": {
+          "Lines": {
+            "79": 5
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Common\\PropertyRequest.cs": {
+      "TEHA.Portal.Data.Models.Common.PropertyRequest": {
+        "System.Int32 TEHA.Portal.Data.Models.Common.PropertyRequest::get_UserId()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<System.Int32> TEHA.Portal.Data.Models.Common.PropertyRequest::get_PropertyIds()": {
+          "Lines": {
+            "25": 4
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.PropertyRequest::get_FreeText()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.PropertyRequest::get_TehaLgNo()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.PropertyRequest::get_AdminLgNo()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.PropertyRequest::get_Street()": {
+          "Lines": {
+            "45": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.PropertyRequest::get_Postcode()": {
+          "Lines": {
+            "50": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.PropertyRequest::get_Place()": {
+          "Lines": {
+            "55": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.PropertyRequest::get_BillingPeriod()": {
+          "Lines": {
+            "60": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<TEHA.Portal.Data.Enums.Dta> TEHA.Portal.Data.Models.Common.PropertyRequest::get_Dta()": {
+          "Lines": {
+            "65": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 TEHA.Portal.Data.Models.Common.PropertyRequest::get_PageNo()": {
+          "Lines": {
+            "70": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 TEHA.Portal.Data.Models.Common.PropertyRequest::get_PageSize()": {
+          "Lines": {
+            "75": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Common.Sort TEHA.Portal.Data.Models.Common.PropertyRequest::get_Sort()": {
+          "Lines": {
+            "80": 4
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Common.PropertyRequest::get_IncludeChildren()": {
+          "Lines": {
+            "85": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Common\\PropertyResult.cs": {
+      "TEHA.Portal.Data.Models.Common.PropertyResult": {
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Common.Property> TEHA.Portal.Data.Models.Common.PropertyResult::get_Items()": {
+          "Lines": {
+            "17": 5
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Common.PropertyResult::get_CurrentPage()": {
+          "Lines": {
+            "22": 3
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Common.PropertyResult::get_TotalRecords()": {
+          "Lines": {
+            "27": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Common\\Sort.cs": {
+      "TEHA.Portal.Data.Models.Common.Sort": {
+        "System.String TEHA.Portal.Data.Models.Common.Sort::get_By()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Common.Sort::get_Direction()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Administration\\DefaultData.cs": {
+      "TEHA.Portal.Data.Models.Administration.DefaultData": {
+        "TEHA.Portal.Data.Models.Administration.SystemSettingBase TEHA.Portal.Data.Models.Administration.DefaultData::get_SystemSettings()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Administration.LookupBase TEHA.Portal.Data.Models.Administration.DefaultData::get_LookUps()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.Language> TEHA.Portal.Data.Models.Administration.DefaultData::get_Languages()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Administration\\EmailField.cs": {
+      "TEHA.Portal.Data.Models.Administration.EmailField": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Administration.EmailField::get_Id()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.EmailField::get_Name()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Administration\\EmailTemplate.cs": {
+      "TEHA.Portal.Data.Models.Administration.EmailTemplate": {
+        "System.Int32 TEHA.Portal.Data.Models.Administration.EmailTemplate::get_Id()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.EmailTemplate::get_Code()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.EmailTemplate::get_Name()": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.EmailTemplate::get_Type()": {
+          "Lines": {
+            "39": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.EmailTemplate::get_Subject()": {
+          "Lines": {
+            "44": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.EmailTemplate::get_Body()": {
+          "Lines": {
+            "49": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.EmailField> TEHA.Portal.Data.Models.Administration.EmailTemplate::get_Fields()": {
+          "Lines": {
+            "54": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Administration.EmailTemplate::get_ActiveInd()": {
+          "Lines": {
+            "59": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Administration\\EnergyCostLookup.cs": {
+      "TEHA.Portal.Data.Models.Administration.EnergyCostLookup": {
+        "System.String TEHA.Portal.Data.Models.Administration.EnergyCostLookup::get_Code()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.EnergyCostLookup::get_Value()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.EnergyCostLookup::get_Unit()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Administration.EnergyCostLookup::get_Status()": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Administration.EnergyCostLookup::get_SortOrder()": {
+          "Lines": {
+            "38": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Administration\\Language.cs": {
+      "TEHA.Portal.Data.Models.Administration.Language": {
+        "System.Int32 TEHA.Portal.Data.Models.Administration.Language::get_Id()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.Language::get_Code()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.Language::get_English()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.Language::get_German()": {
+          "Lines": {
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.Language::get_Type()": {
+          "Lines": {
+            "47": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Administration\\LookupBase.cs": {
+      "TEHA.Portal.Data.Models.Administration.LookupBase": {
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.LookUps> TEHA.Portal.Data.Models.Administration.LookupBase::get_CommunicationChannel()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.LookUps> TEHA.Portal.Data.Models.Administration.LookupBase::get_ContractType()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.LookUps> TEHA.Portal.Data.Models.Administration.LookupBase::get_MeasuringInstrumentType()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.LookUps> TEHA.Portal.Data.Models.Administration.LookupBase::get_TestType()": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.LookUps> TEHA.Portal.Data.Models.Administration.LookupBase::get_PlumbingReason()": {
+          "Lines": {
+            "42": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.LookUps> TEHA.Portal.Data.Models.Administration.LookupBase::get_BuildingType()": {
+          "Lines": {
+            "48": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.LookUps> TEHA.Portal.Data.Models.Administration.LookupBase::get_EnergySource()": {
+          "Lines": {
+            "54": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.LookUps> TEHA.Portal.Data.Models.Administration.LookupBase::get_CostCategory()": {
+          "Lines": {
+            "60": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.LookUps> TEHA.Portal.Data.Models.Administration.LookupBase::get_HeatingCostType()": {
+          "Lines": {
+            "66": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.EnergyCostLookup> TEHA.Portal.Data.Models.Administration.LookupBase::get_EnergyCostType()": {
+          "Lines": {
+            "72": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.LookUps> TEHA.Portal.Data.Models.Administration.LookupBase::get_EnergyCostTypeUnit()": {
+          "Lines": {
+            "78": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.LookUps> TEHA.Portal.Data.Models.Administration.LookupBase::get_HouseCostType()": {
+          "Lines": {
+            "84": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.LookUps> TEHA.Portal.Data.Models.Administration.LookupBase::get_DocumentType()": {
+          "Lines": {
+            "90": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.LookUps> TEHA.Portal.Data.Models.Administration.LookupBase::get_ServiceType()": {
+          "Lines": {
+            "96": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Administration.LookUps> TEHA.Portal.Data.Models.Administration.LookupBase::get_GeneralCostType()": {
+          "Lines": {
+            "102": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Administration\\LookUps.cs": {
+      "TEHA.Portal.Data.Models.Administration.LookUps": {
+        "System.String TEHA.Portal.Data.Models.Administration.LookUps::get_Code()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.LookUps::get_Value()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Administration.LookUps::get_Status()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Administration.LookUps::get_SortOrder()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Administration\\SystemSetting.cs": {
+      "TEHA.Portal.Data.Models.Administration.SystemSetting": {
+        "System.Int32 TEHA.Portal.Data.Models.Administration.SystemSetting::get_Id()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.SystemSetting::get_Code()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.SystemSetting::get_SettingCategory()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.SystemSetting::get_DisplayName()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.SystemSetting::get_Value()": {
+          "Lines": {
+            "46": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.SystemSetting::get_Description()": {
+          "Lines": {
+            "52": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.SystemSetting::get_RegExp()": {
+          "Lines": {
+            "58": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.SystemSetting::get_Type()": {
+          "Lines": {
+            "64": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Administration\\SystemSettingBase.cs": {
+      "TEHA.Portal.Data.Models.Administration.SystemSettingBase": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Administration.SystemSettingBase::get_GridPageSize()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Administration.SystemSettingBase::get_MaxRecord()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Administration.SystemSettingBaseExceptionSettings TEHA.Portal.Data.Models.Administration.SystemSettingBase::get_ExceptionSettings()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Administration.SystemSettingBaseEmailSetting TEHA.Portal.Data.Models.Administration.SystemSettingBase::get_EmailSetting()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Administration.SystemSettingBaseUrl TEHA.Portal.Data.Models.Administration.SystemSettingBase::get_Url()": {
+          "Lines": {
+            "37": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Administration\\SystemSettingBaseEmailSetting.cs": {
+      "TEHA.Portal.Data.Models.Administration.SystemSettingBaseEmailSetting": {
+        "System.String TEHA.Portal.Data.Models.Administration.SystemSettingBaseEmailSetting::get_From()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.SystemSettingBaseEmailSetting::get_SmtpUsername()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.SystemSettingBaseEmailSetting::get_SmtpPassword()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Administration.SystemSettingBaseEmailSetting::get_SmtpPort()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.SystemSettingBaseEmailSetting::get_SmtpServer()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Administration\\SystemSettingBaseExceptionSettings.cs": {
+      "TEHA.Portal.Data.Models.Administration.SystemSettingBaseExceptionSettings": {
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Administration.SystemSettingBaseExceptionSettings::get_JavascriptErrors()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Administration.SystemSettingBaseExceptionSettings::get_ExceptionEmails()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Administration\\SystemSettingBaseUrl.cs": {
+      "TEHA.Portal.Data.Models.Administration.SystemSettingBaseUrl": {
+        "System.String TEHA.Portal.Data.Models.Administration.SystemSettingBaseUrl::get_Api()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.SystemSettingBaseUrl::get_Web()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Administration.SystemSettingBaseUrl::get_TehaApi()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Account\\ChangePasswordRequest.cs": {
+      "TEHA.Portal.Data.Models.Account.ChangePasswordRequest": {
+        "System.Int32 TEHA.Portal.Data.Models.Account.ChangePasswordRequest::get_UserId()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.ChangePasswordRequest::get_OldPassword()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.ChangePasswordRequest::get_NewPassword()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Account\\CodeVerificationRequest.cs": {
+      "TEHA.Portal.Data.Models.Account.CodeVerificationRequest": {
+        "System.String TEHA.Portal.Data.Models.Account.CodeVerificationRequest::get_Username()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.CodeVerificationRequest::get_Code()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Account\\ContactInformation.cs": {
+      "TEHA.Portal.Data.Models.Account.ContactInformation": {
+        "System.String TEHA.Portal.Data.Models.Account.ContactInformation::get_FirstName()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.ContactInformation::get_LastName()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.ContactInformation::get_Street()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.ContactInformation::get_Postcode()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.ContactInformation::get_Place()": {
+          "Lines": {
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.ContactInformation::get_Email()": {
+          "Lines": {
+            "47": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.ContactInformation::get_Phone()": {
+          "Lines": {
+            "53": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.ContactInformation::get_Mobile()": {
+          "Lines": {
+            "59": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.ContactInformation::get_Fax()": {
+          "Lines": {
+            "65": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.ContactInformation::get_CustomerNumber()": {
+          "Lines": {
+            "70": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Account\\ForgotPasswordRequest.cs": {
+      "TEHA.Portal.Data.Models.Account.ForgotPasswordRequest": {
+        "System.Int32 TEHA.Portal.Data.Models.Account.ForgotPasswordRequest::get_UserId()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Account\\GeneralSetting.cs": {
+      "TEHA.Portal.Data.Models.Account.GeneralSetting": {
+        "TEHA.Portal.Data.Models.Account.GeneralSettingDetail TEHA.Portal.Data.Models.Account.GeneralSetting::get_Invoice()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Account.GeneralSettingDetail TEHA.Portal.Data.Models.Account.GeneralSetting::get_AccountingDocument()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Account.GeneralSettingDetail TEHA.Portal.Data.Models.Account.GeneralSetting::get_Readingdates()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Account.GeneralSettingDetail TEHA.Portal.Data.Models.Account.GeneralSetting::get_ReadingAttempt()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Account.GeneralSettingDetail TEHA.Portal.Data.Models.Account.GeneralSetting::get_PlumbingDates()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Account.GeneralSettingDetail TEHA.Portal.Data.Models.Account.GeneralSetting::get_PlumbingReports()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Account.GeneralSettingDetail TEHA.Portal.Data.Models.Account.GeneralSetting::get_RemainingLetters()": {
+          "Lines": {
+            "45": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Account\\GeneralSettingDetail.cs": {
+      "TEHA.Portal.Data.Models.Account.GeneralSettingDetail": {
+        "System.Boolean TEHA.Portal.Data.Models.Account.GeneralSettingDetail::get_NotificationInd()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<System.String> TEHA.Portal.Data.Models.Account.GeneralSettingDetail::get_communicationMedium()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Account\\Member.cs": {
+      "TEHA.Portal.Data.Models.Account.Member": {
+        "System.Int32 TEHA.Portal.Data.Models.Account.Member::get_UserId()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.Member::get_Email()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.Member::get_Name()": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Common.Property> TEHA.Portal.Data.Models.Account.Member::get_Properties()": {
+          "Lines": {
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> TEHA.Portal.Data.Models.Account.Member::get_StartDateContracts()": {
+          "Lines": {
+            "43": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> TEHA.Portal.Data.Models.Account.Member::get_EndDateContracts()": {
+          "Lines": {
+            "48": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Account\\PasswordResetRequest.cs": {
+      "TEHA.Portal.Data.Models.Account.PasswordResetRequest": {
+        "System.String TEHA.Portal.Data.Models.Account.PasswordResetRequest::get_Email()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.PasswordResetRequest::get_Password()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.PasswordResetRequest::get_VerificationcCode()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Account\\Profile.cs": {
+      "TEHA.Portal.Data.Models.Account.Profile": {
+        "System.Int32 TEHA.Portal.Data.Models.Account.Profile::get_UserId()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Account.GeneralSetting TEHA.Portal.Data.Models.Account.Profile::get_GeneralSettings()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Account.ContactInformation TEHA.Portal.Data.Models.Account.Profile::get_ContactInformation()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Account.Member> TEHA.Portal.Data.Models.Account.Profile::get_Members()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Account\\UpdateContactInfoRequest.cs": {
+      "TEHA.Portal.Data.Models.Account.UpdateContactInfoRequest": {
+        "System.Int32 TEHA.Portal.Data.Models.Account.UpdateContactInfoRequest::get_Id()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Account.ContactInformation TEHA.Portal.Data.Models.Account.UpdateContactInfoRequest::get_ContactInfo()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Account\\UpdateGeneralSettingRequest.cs": {
+      "TEHA.Portal.Data.Models.Account.UpdateGeneralSettingRequest": {
+        "System.Int32 TEHA.Portal.Data.Models.Account.UpdateGeneralSettingRequest::get_Id()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Account.GeneralSetting TEHA.Portal.Data.Models.Account.UpdateGeneralSettingRequest::get_GeneralSetting()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Account\\UpdateMemberPropertyRequest.cs": {
+      "TEHA.Portal.Data.Models.Account.UpdateMemberPropertyRequest": {
+        "System.Int32 TEHA.Portal.Data.Models.Account.UpdateMemberPropertyRequest::get_UserId()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 TEHA.Portal.Data.Models.Account.UpdateMemberPropertyRequest::get_MemberUserId()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<System.Int32> TEHA.Portal.Data.Models.Account.UpdateMemberPropertyRequest::get_Properties()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Account\\User.cs": {
+      "TEHA.Portal.Data.Models.Account.User": {
+        "System.Int32 TEHA.Portal.Data.Models.Account.User::get_Id()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.User::get_Name()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.User::get_Email()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.User::get_Type()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.User::get_ExternalToken()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> TEHA.Portal.Data.Models.Account.User::get_LastLogin()": {
+          "Lines": {
+            "45": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.User::get_Token()": {
+          "Lines": {
+            "50": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.User::get_RefreshToken()": {
+          "Lines": {
+            "55": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean TEHA.Portal.Data.Models.Account.User::get_PasswordExpiredInd()": {
+          "Lines": {
+            "60": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Account\\UserCredential.cs": {
+      "TEHA.Portal.Data.Models.Account.UserCredential": {
+        "System.String TEHA.Portal.Data.Models.Account.UserCredential::get_Username()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.UserCredential::get_Password()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Account\\UserLoginResponse.cs": {
+      "TEHA.Portal.Data.Models.Account.UserLoginResponse": {
+        "System.Int32 TEHA.Portal.Data.Models.Account.UserLoginResponse::get_Id()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Enums.UserType TEHA.Portal.Data.Models.Account.UserLoginResponse::get_Type()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.UserLoginResponse::get_Name()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.UserLoginResponse::get_Email()": {
+          "Lines": {
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.UserLoginResponse::get_Token()": {
+          "Lines": {
+            "43": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Account.UserLoginResponse::get_RefreshToken()": {
+          "Lines": {
+            "48": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime TEHA.Portal.Data.Models.Account.UserLoginResponse::get_LastLogin()": {
+          "Lines": {
+            "54": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean TEHA.Portal.Data.Models.Account.UserLoginResponse::get_PasswordExpiredInd()": {
+          "Lines": {
+            "59": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Accounting\\BillingCostConsumption.cs": {
+      "TEHA.Portal.Data.Models.Accounting.BillingCostConsumption": {
+        "System.Decimal TEHA.Portal.Data.Models.Accounting.BillingCostConsumption::get_BasicCost()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal TEHA.Portal.Data.Models.Accounting.BillingCostConsumption::get_Consumption()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Accounting\\BillingInformation.cs": {
+      "TEHA.Portal.Data.Models.Accounting.BillingInformation": {
+        "System.Decimal TEHA.Portal.Data.Models.Accounting.BillingInformation::get_AverageBoilerTemprature()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Accounting.BillingCostConsumption TEHA.Portal.Data.Models.Accounting.BillingInformation::get_Heater()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Accounting.BillingCostConsumption TEHA.Portal.Data.Models.Accounting.BillingInformation::get_HotWater()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Accounting\\Cost.cs": {
+      "TEHA.Portal.Data.Models.Accounting.Cost": {
+        "TEHA.Portal.Data.Models.Accounting.EnergyCost TEHA.Portal.Data.Models.Accounting.Cost::get_Energy()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Accounting.CostDetail> TEHA.Portal.Data.Models.Accounting.Cost::get_Heating()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Accounting.HouseCost TEHA.Portal.Data.Models.Accounting.Cost::get_House()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Accounting.CostDetail> TEHA.Portal.Data.Models.Accounting.Cost::get_General()": {
+          "Lines": {
+            "37": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Accounting\\CostDetail.cs": {
+      "TEHA.Portal.Data.Models.Accounting.CostDetail": {
+        "System.String TEHA.Portal.Data.Models.Accounting.CostDetail::get_Type()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Accounting.CostDetail::get_Vat()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Accounting.CostDetail::get_WageShare()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Accounting.CostDetail::get_CalculationKey()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Accounting.CostDetail::get_Amount()": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Accounting.CostDetail::get_InvoiceDate()": {
+          "Lines": {
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.Byte[] TEHA.Portal.Data.Models.Accounting.CostDetail::get_InvoiceFileContents()": {
+          "Lines": {
+            "46": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Accounting\\EnergyCost.cs": {
+      "TEHA.Portal.Data.Models.Accounting.EnergyCost": {
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Accounting.EnergyCostDetail> TEHA.Portal.Data.Models.Accounting.EnergyCost::get_Items()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Accounting.EnergyCost::get_OpeningQuantity()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Accounting.EnergyCost::get_ClosingQuantity()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Accounting.EnergyCost::get_OpeningAmount()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Accounting\\EnergyCostDetail.cs": {
+      "TEHA.Portal.Data.Models.Accounting.EnergyCostDetail": {
+        "System.String TEHA.Portal.Data.Models.Accounting.EnergyCostDetail::get_Type()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Accounting.EnergyCostDetail::get_Units()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Accounting.EnergyCostDetail::get_Consumption()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Accounting.EnergyCostDetail::get_Amount()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Accounting.EnergyCostDetail::get_InvoiceDate()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.Byte[] TEHA.Portal.Data.Models.Accounting.EnergyCostDetail::get_InvoiceFileContents()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Accounting\\FlatData.cs": {
+      "TEHA.Portal.Data.Models.Accounting.FlatData": {
+        "System.Int32 TEHA.Portal.Data.Models.Accounting.FlatData::get_FlatId()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime TEHA.Portal.Data.Models.Accounting.FlatData::get_MoveInDate()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 TEHA.Portal.Data.Models.Accounting.FlatData::get_NumberOfPeople()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal TEHA.Portal.Data.Models.Accounting.FlatData::get_AdvancePayment()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Accounting.FlatData::get_HeatingArea()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Accounting.FlatData::get_HotWaterArea()": {
+          "Lines": {
+            "45": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Accounting.FlatTransitons> TEHA.Portal.Data.Models.Accounting.FlatData::get_Transitions()": {
+          "Lines": {
+            "50": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Accounting.NameChange TEHA.Portal.Data.Models.Accounting.FlatData::get_NameChange()": {
+          "Lines": {
+            "55": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Accounting\\FlatTransitons.cs": {
+      "TEHA.Portal.Data.Models.Accounting.FlatTransitons": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Accounting.FlatTransitons::get_FlatId()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Accounting.UserMovedOut TEHA.Portal.Data.Models.Accounting.FlatTransitons::get_UserMovedOut()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Accounting.UserMovedIn TEHA.Portal.Data.Models.Accounting.FlatTransitons::get_UserMovedIn()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Accounting.FlatTransitons::get_AdvancePayment()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Accounting.FlatTransitons::get_SwitchingFeePayee()": {
+          "Lines": {
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal TEHA.Portal.Data.Models.Accounting.FlatTransitons::get_HotWaterArea()": {
+          "Lines": {
+            "47": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal TEHA.Portal.Data.Models.Accounting.FlatTransitons::get_HeatingArea()": {
+          "Lines": {
+            "53": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Accounting\\FlatUserInfo.cs": {
+      "TEHA.Portal.Data.Models.Accounting.FlatUserInfo": {
+        "System.Nullable`1<System.Int32> TEHA.Portal.Data.Models.Accounting.FlatUserInfo::get_FlatId()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Accounting.FlatUserInfo::get_Name()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime TEHA.Portal.Data.Models.Accounting.FlatUserInfo::get_MoveInDate()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Accounting\\HouseCost.cs": {
+      "TEHA.Portal.Data.Models.Accounting.HouseCost": {
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Accounting.CostDetail> TEHA.Portal.Data.Models.Accounting.HouseCost::get_Items()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Accounting.HouseCost::get_GeneralElectricityInd()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Accounting.HouseCost::get_WaterConsumption()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> TEHA.Portal.Data.Models.Accounting.HouseCost::get_WasteWater()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Accounting\\Information.cs": {
+      "TEHA.Portal.Data.Models.Accounting.Information": {
+        "System.Int32 TEHA.Portal.Data.Models.Accounting.Information::get_UserId()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 TEHA.Portal.Data.Models.Accounting.Information::get_PropertyId()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Accounting.Information::get_PayrollYear()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Accounting.Information::get_ConsumptionAnalysisInd()": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Accounting.BillingInformation TEHA.Portal.Data.Models.Accounting.Information::get_BillingInformation()": {
+          "Lines": {
+            "41": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Accounting.Cost TEHA.Portal.Data.Models.Accounting.Information::get_Cost()": {
+          "Lines": {
+            "46": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<TEHA.Portal.Data.Models.Accounting.FlatData> TEHA.Portal.Data.Models.Accounting.Information::get_Flats()": {
+          "Lines": {
+            "51": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Accounting.Information::get_Comments()": {
+          "Lines": {
+            "56": 0
+          },
+          "Branches": []
+        },
+        "TEHA.Portal.Data.Models.Accounting.Recepient TEHA.Portal.Data.Models.Accounting.Information::get_Recepient()": {
+          "Lines": {
+            "61": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean TEHA.Portal.Data.Models.Accounting.Information::get_CancellationPolicyInd()": {
+          "Lines": {
+            "67": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean TEHA.Portal.Data.Models.Accounting.Information::get_ConfirmTheCompletenessInd()": {
+          "Lines": {
+            "73": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean TEHA.Portal.Data.Models.Accounting.Information::get_SubjectToFeeInd()": {
+          "Lines": {
+            "79": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Boolean> TEHA.Portal.Data.Models.Accounting.Information::get_SubmitInd()": {
+          "Lines": {
+            "84": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Accounting\\NameChange.cs": {
+      "TEHA.Portal.Data.Models.Accounting.NameChange": {
+        "System.String TEHA.Portal.Data.Models.Accounting.NameChange::get_Name()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Accounting.NameChange::get_NewName()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean TEHA.Portal.Data.Models.Accounting.NameChange::get_UserChangeInd()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Accounting\\Recepient.cs": {
+      "TEHA.Portal.Data.Models.Accounting.Recepient": {
+        "System.String TEHA.Portal.Data.Models.Accounting.Recepient::get_Name()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Accounting.Recepient::get_Street()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Accounting.Recepient::get_Postcode()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Accounting.Recepient::get_City()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Accounting.Recepient::get_Area()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Accounting\\UserMovedIn.cs": {
+      "TEHA.Portal.Data.Models.Accounting.UserMovedIn": {
+        "System.String TEHA.Portal.Data.Models.Accounting.UserMovedIn::get_Name()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime TEHA.Portal.Data.Models.Accounting.UserMovedIn::get_Date()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 TEHA.Portal.Data.Models.Accounting.UserMovedIn::get_Count()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.Data\\Models\\Accounting\\UserMovedOut.cs": {
+      "TEHA.Portal.Data.Models.Accounting.UserMovedOut": {
+        "System.String TEHA.Portal.Data.Models.Accounting.UserMovedOut::get_Name()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String TEHA.Portal.Data.Models.Accounting.UserMovedOut::get_Date()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "TEHA.Portal.ProxyAPI.dll": {
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.ProxyAPI\\RestClient.cs": {
+      "TEHA.Portal.ProxyAPI.RestClient": {
+        "System.Void TEHA.Portal.ProxyAPI.RestClient::.ctor()": {
+          "Lines": {
+            "25": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.RestClient/<>c": {
+        "System.String TEHA.Portal.ProxyAPI.RestClient/<>c::<Get>b__2_0(System.Collections.Generic.KeyValuePair`2<System.String,System.String>)": {
+          "Lines": {
+            "51": 0
+          },
+          "Branches": [
+            {
+              "Line": 51,
+              "Offset": 93,
+              "EndOffset": 95,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 93,
+              "EndOffset": 165,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "TEHA.Portal.ProxyAPI.RestClient/<Post>d__3": {
+        "System.Void TEHA.Portal.ProxyAPI.RestClient/<Post>d__3::MoveNext()": {
+          "Lines": {
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0
+          },
+          "Branches": [
+            {
+              "Line": 64,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 34,
+              "EndOffset": 76,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "TEHA.Portal.ProxyAPI.RestClient/<Put>d__4": {
+        "System.Void TEHA.Portal.ProxyAPI.RestClient/<Put>d__4::MoveNext()": {
+          "Lines": {
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0
+          },
+          "Branches": [
+            {
+              "Line": 86,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 86,
+              "Offset": 34,
+              "EndOffset": 76,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.ProxyAPI\\Clients\\StockOverview\\StockOverviewClient.cs": {
+      "TEHA.Portal.ProxyAPI.Clients.StockOverview.StockOverviewClient": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.StockOverview.StockOverviewClient::.ctor()": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.StockOverview.StockOverviewClient/<GetSummary>d__2": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.StockOverview.StockOverviewClient/<GetSummary>d__2::MoveNext()": {
+          "Lines": {
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.StockOverview.StockOverviewClient/<GetProperties>d__3": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.StockOverview.StockOverviewClient/<GetProperties>d__3::MoveNext()": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.StockOverview.StockOverviewClient/<GetFlats>d__4": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.StockOverview.StockOverviewClient/<GetFlats>d__4::MoveNext()": {
+          "Lines": {
+            "63": 0,
+            "64": 0,
+            "65": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.StockOverview.StockOverviewClient/<GetOpenLetter>d__5": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.StockOverview.StockOverviewClient/<GetOpenLetter>d__5::MoveNext()": {
+          "Lines": {
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "85": 0,
+            "86": 0
+          },
+          "Branches": [
+            {
+              "Line": 80,
+              "Offset": 98,
+              "EndOffset": 100,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 80,
+              "Offset": 98,
+              "EndOffset": 136,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.ProxyAPI\\Clients\\Document\\DocumentClient.cs": {
+      "TEHA.Portal.ProxyAPI.Clients.Document.DocumentClient": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Document.DocumentClient::.ctor()": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.Document.DocumentClient/<GetDocuments>d__2": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Document.DocumentClient/<GetDocuments>d__2::MoveNext()": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0
+          },
+          "Branches": [
+            {
+              "Line": 43,
+              "Offset": 126,
+              "EndOffset": 128,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 126,
+              "EndOffset": 164,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.Document.DocumentClient/<GetSEPADocument>d__3": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Document.DocumentClient/<GetSEPADocument>d__3::MoveNext()": {
+          "Lines": {
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "68": 0,
+            "69": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.Document.DocumentClient/<GetAllSEPADocuments>d__4": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Document.DocumentClient/<GetAllSEPADocuments>d__4::MoveNext()": {
+          "Lines": {
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "83": 0,
+            "84": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.Document.DocumentClient/<GetDocumentContent>d__5": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Document.DocumentClient/<GetDocumentContent>d__5::MoveNext()": {
+          "Lines": {
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "104": 0,
+            "105": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.Document.DocumentClient/<GetInvoices>d__6": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Document.DocumentClient/<GetInvoices>d__6::MoveNext()": {
+          "Lines": {
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "126": 0,
+            "127": 0
+          },
+          "Branches": [
+            {
+              "Line": 121,
+              "Offset": 98,
+              "EndOffset": 100,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 121,
+              "Offset": 98,
+              "EndOffset": 136,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.ProxyAPI\\Clients\\Account\\AccountClient.cs": {
+      "TEHA.Portal.ProxyAPI.Clients.Account.AccountClient": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Account.AccountClient::.ctor()": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.Account.AccountClient/<Login>d__2": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Account.AccountClient/<Login>d__2::MoveNext()": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.Account.AccountClient/<GetUserContactInformation>d__3": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Account.AccountClient/<GetUserContactInformation>d__3::MoveNext()": {
+          "Lines": {
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.Account.AccountClient/<Detail>d__4": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Account.AccountClient/<Detail>d__4::MoveNext()": {
+          "Lines": {
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.Account.AccountClient/<UpdateGeneralSetting>d__5": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Account.AccountClient/<UpdateGeneralSetting>d__5::MoveNext()": {
+          "Lines": {
+            "71": 0,
+            "72": 0,
+            "73": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.Account.AccountClient/<ChangePassword>d__6": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Account.AccountClient/<ChangePassword>d__6::MoveNext()": {
+          "Lines": {
+            "82": 0,
+            "83": 0,
+            "84": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.Account.AccountClient/<UpdateMemberProperties>d__7": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Account.AccountClient/<UpdateMemberProperties>d__7::MoveNext()": {
+          "Lines": {
+            "93": 0,
+            "94": 0,
+            "95": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.Account.AccountClient/<ForgotPassword>d__8": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Account.AccountClient/<ForgotPassword>d__8::MoveNext()": {
+          "Lines": {
+            "104": 0,
+            "105": 0,
+            "106": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.Account.AccountClient/<UpdateContactInfomation>d__9": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Account.AccountClient/<UpdateContactInfomation>d__9::MoveNext()": {
+          "Lines": {
+            "115": 0,
+            "116": 0,
+            "117": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\TEHA\\teha-portal-api\\TEHA.Portal.ProxyAPI\\Clients\\Accounting\\AccountingClient.cs": {
+      "TEHA.Portal.ProxyAPI.Clients.Accounting.AccountingClient": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Accounting.AccountingClient::.ctor()": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.Accounting.AccountingClient/<Get>d__2": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Accounting.AccountingClient/<Get>d__2::MoveNext()": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.Accounting.AccountingClient/<GetFlatCurrentUserInfo>d__3": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Accounting.AccountingClient/<GetFlatCurrentUserInfo>d__3::MoveNext()": {
+          "Lines": {
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0
+          },
+          "Branches": []
+        }
+      },
+      "TEHA.Portal.ProxyAPI.Clients.Accounting.AccountingClient/<Submit>d__4": {
+        "System.Void TEHA.Portal.ProxyAPI.Clients.Accounting.AccountingClient/<Submit>d__4::MoveNext()": {
+          "Lines": {
+            "70": 0,
+            "71": 0,
+            "72": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

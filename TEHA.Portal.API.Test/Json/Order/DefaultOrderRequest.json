@@ -1,0 +1,16 @@
+{
+  "userId": 28376,
+  "propertyId": 39541,
+  "flatId": 568748,
+  "status": "OPEN",
+  "tehaLgNo": "",
+  "adminLgNo": "",
+  "tehaUserNo": "",
+  "adminUserNo": "",
+  "pageNo": 0,
+  "pageSize": 10,
+  "sort": {
+    "by": "tehaLgNo",
+    "direction": "asc"
+  }
+}

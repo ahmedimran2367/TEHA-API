@@ -1,0 +1,16 @@
+{
+  "userId": 4323,
+  "propertyId": 23333,
+  "payrollYear": 123,
+  "cancellationPolicyInd": true,
+  "confirmTheCompletenessInd": true,
+  "subjectToFeeInd": true,
+  "recepient": {
+    "name": "string",
+    "street": "string",
+    "postcode": "string",
+    "city": "string",
+    "area": "string"
+  },
+  "comments": "string"
+}

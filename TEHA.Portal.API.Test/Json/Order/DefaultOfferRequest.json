@@ -1,0 +1,37 @@
+{
+  "userId": 28376,
+  "propertyAddress": {
+    "houseNumber": "30 pak",
+    "street": "12122",
+    "postcode": "54000",
+    "place": "Munich",
+    "type": "R",
+    "appartmentCount": 200,
+    "commercialUnitCount": 0
+  },
+  "contactDetails": {
+    "firstName": "ahmad",
+    "lastName": "imran",
+    "houseNumber": "450",
+    "street": "7",
+    "postcode": "54000",
+    "place": "Munich",
+    "phone": "+49 30 901820",
+    "email": "ahmad@teha.de",
+    "type": "Owner",
+    "otherTypeDescription": null
+  },
+  "contractType": [
+    "Rent"
+  ],
+  "serviceTypes": [
+    "Heating & Hot Water"
+  ],
+  "meterTypes": [
+    {
+      "type": "Smoke Detector",
+      "count": 50
+    }
+  ],
+  "measuringDeviceRequirement": "No measuring device available"
+}

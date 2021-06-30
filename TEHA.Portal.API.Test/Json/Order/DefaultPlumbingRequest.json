@@ -1,0 +1,33 @@
+{
+  "userId": 28376,
+  "propertyId": 39541,
+  "flatId": 568748,
+  "meterIds": [ 3173930 ],
+  "alternativePerson": {
+    "firstName": "Jhon Smith",
+    "lastName": "Rental",
+    "email": "JhonSmith@teha.de",
+    "phone": "+49 30 901820",
+    "mobile": "01512-1234567"
+  },
+  "appointmentDate": "2020-06-15",
+  "alternativeDateRange": {
+    "from": "2020-05-10",
+    "to": "2020-16-30"
+  },
+  "preferredTimeRange": {
+    "from": "13:58",
+    "to": "14:58"
+  },
+  "reason": "MeterDefect",
+  "communicationMode": {
+    "letterInd": true,
+    "smsInd": true,
+    "emailInd": true,
+    "webPortalInd": true
+  },
+  "comments": "string",
+  "termsInd": true,
+  "costsInd": true,
+  "dataProtectionInd": true
+}

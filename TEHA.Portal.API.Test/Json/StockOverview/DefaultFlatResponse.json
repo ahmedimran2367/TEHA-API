@@ -1,0 +1,95 @@
+{
+  "status": "OK",
+  "message": "",
+  "data": {
+    "items": [
+      {
+        "id": 673431,
+        "propertyId": 76379,
+        "flatgroupId": 21624,
+        "tehaUseNo": "0001",
+        "adminUserNo": "1/2",
+        "location": "0001",
+        "meters": [
+          {
+            "id": 3050904,
+            "measurePointId": 2206628,
+            "flatgroupId": null,
+            "flatId": 673431,
+            "propertyId": 76379,
+            "meterType": 4,
+            "meterMaster": 1,
+            "meterTypeDesc": "WMZ",
+            "serialNumber": "21838213",
+            "location": "LOTH",
+            "rmwStatus": null,
+            "plumbingStatus": null,
+            "testType": null,
+            "testDate": null,
+            "comments": null
+          },
+          {
+            "id": 3051008,
+            "measurePointId": 2206731,
+            "flatgroupId": null,
+            "flatId": 673431,
+            "propertyId": 76379,
+            "meterType": 3,
+            "meterMaster": 4,
+            "meterTypeDesc": "KWZ",
+            "serialNumber": "18011876",
+            "location": "LOTO",
+            "rmwStatus": null,
+            "plumbingStatus": null,
+            "testType": null,
+            "testDate": null,
+            "comments": null
+          },
+          {
+            "id": 3051009,
+            "measurePointId": 2206732,
+            "flatgroupId": null,
+            "flatId": 673431,
+            "propertyId": 76379,
+            "meterType": 3,
+            "meterMaster": 4,
+            "meterTypeDesc": "KWZ",
+            "serialNumber": "17006844",
+            "location": "LOKC",
+            "rmwStatus": null,
+            "plumbingStatus": null,
+            "testType": null,
+            "testDate": null,
+            "comments": null
+          },
+          {
+            "id": 3050963,
+            "measurePointId": 2206686,
+            "flatgroupId": null,
+            "flatId": 673431,
+            "propertyId": 76379,
+            "meterType": 4,
+            "meterMaster": 16,
+            "meterTypeDesc": "Kälte",
+            "serialNumber": "21850017",
+            "location": "LOTH",
+            "rmwStatus": null,
+            "plumbingStatus": null,
+            "testType": null,
+            "testDate": null,
+            "comments": null
+          }
+        ],
+        "rmwStatus": null,
+        "accountingStatus": null,
+        "readingStatus": null,
+        "plumbingStatus": null,
+        "testType": null,
+        "testDate": null,
+        "openLetterInd": false
+      }
+    ],
+    "currentPage": 0,
+    "totalRecords": 1
+  }
+}

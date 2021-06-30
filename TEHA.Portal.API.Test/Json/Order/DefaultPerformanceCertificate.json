@@ -1,0 +1,40 @@
+{
+  "userId": 28376,
+  "propertyId": 39541,
+  "buildingType": "Part of a mixed-use building",
+  "yearOfConstruction": "2020",
+  "monumentProtectionInd": true,
+  "amountOfHotWaterUsed": 200,
+  "measurmentWithWWZInd": true,
+  "renewalOfHeating": "2018",
+  "buildingCooledInd": true,
+  "heatableUsableArea": 1000,
+  "noOfResidentialUnits": 10,
+  "buildingWithBasement": "No",
+  "basementHeatedInd": true,
+  "heatingSystem": "F",
+  "energySource": "natural gas",
+  "facadeInsulationYear": "2020",
+  "roofInsulationYear": "2020",
+  "solarSystemYear": "2020",
+  "thermalEnergy": [
+    {
+      "period": "01/01/2020 - 31/12/2020",
+      "amount": 10,
+      "unit": "litre",
+      "vacancyPercentage": 10
+    }
+  ],
+  "hotWater": [
+    {
+      "period": "01/01/2020 - 31/12/2020",
+      "amount": 30,
+      "unit": "litre"
+    }
+  ],
+  "hotWaterIncludedInd": true,
+  "yearOfHeating": "2005",
+  "termsInd": true,
+  "costsInd": true,
+  "dataProtectionInd": true
+}

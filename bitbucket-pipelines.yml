@@ -1,0 +1,57 @@
+# This is a sample build configuration for .NET Core.
+# Check our guides at https://confluence.atlassian.com/x/5Q4SMw for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: mcr.microsoft.com/dotnet/core/sdk:3.1
+pipelines:
+  default:
+    - step:
+        caches:
+          - dotnetcore
+        script: # Modify the comma`nds below to build your repository. 
+        - chmod +x ./build.sh && chmod +x ./pushcoverage.sh
+        - ./build.sh
+        - ./pushcoverage.sh
+  branches:
+    feature/*:
+      - step:
+          caches:
+              - dotnetcore
+          script: # Modify the comma`nds below to build your repository
+              - curl -sL https://aka.ms/InstallAzureCLIDeb | bash
+              - apt-get -y update
+              - apt-get install -y zip  
+              - chmod +x ./build.sh && chmod +x ./pushcoverage.sh
+              - ./build.sh
+              - ./pushcoverage.sh
+    develop:
+    - step:
+        deployment: test
+        caches:
+            - dotnetcore
+        script: # Modify the comma`nds below to build your repository
+            - export environment=dev
+            - curl -sL https://aka.ms/InstallAzureCLIDeb | bash
+            
+            
+            - apt-get -y update
+            - apt-get install -y zip  
+            - chmod +x ./build.sh && chmod +x ./deploy.sh && chmod +x ./pushcoverage.sh
+            - ./build.sh
+            - ./deploy.sh
+            - ./pushcoverage.sh    
+    master:
+    - step:
+        deployment: production
+        caches:
+            - dotnetcore
+        script: # Modify the comma`nds below to build your repository.
+            - export environment=prd
+            - curl -sL https://aka.ms/InstallAzureCLIDeb | bash
+            - apt-get -y update
+            - apt-get install -y zip  
+            - chmod +x ./build.sh && chmod +x ./deploy.sh && chmod +x ./pushcoverage.sh
+            - ./build.sh
+            - ./deploy.sh
+            - ./pushcoverage.sh 

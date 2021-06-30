@@ -1,0 +1,19 @@
+{
+  "userId": 28884,
+  "propertyIds": [],
+  "freeText": "",
+  "tehaLgNo": "",
+  "adminLgNo": "",
+  "street": "",
+  "postcode": "",
+  "place": "",
+  "billingPeriod": "",
+  "dta": null,
+  "pageNo": 0,
+  "pageSize": 10,
+  "sort": {
+    "by": "tehaLgNo",
+    "direction": "asc"
+  },
+  "includeChildren": true
+}

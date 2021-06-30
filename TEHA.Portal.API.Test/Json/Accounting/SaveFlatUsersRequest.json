@@ -1,0 +1,75 @@
+{
+  "userId": 4323,
+  "propertyId": 23333,
+  "payrollYear": 123,
+  "flatUser": {
+    "flatId": 0,
+    "flatDesc": "string",
+    "adminDesc": "string",
+    "tehaUserNo": "string",
+    "adminUserNo": "string",
+    "moveInDate": "2019-08-24",
+    "numberOfPeople": 0,
+    "advancePayment": 0,
+    "heatingArea": 22,
+    "hotWaterArea": 22,
+    "rentals": [
+      {
+        "rentId": 0,
+        "adminNumber": "string",
+        "userMovedIn": {
+          "name": "string",
+          "date": "string",
+          "count": 0
+        },
+        "advancePayment": 0,
+        "switchingFeePayee": "MI",
+        "hotWaterArea": 0,
+        "heatingArea": 0,
+        "nameChange": {
+          "name": "string",
+          "newName": "string",
+          "userChangedInd": true
+        },
+        "contact": {
+          "firstName": "string",
+          "lastName": "string",
+          "email": "string",
+          "phone": "string",
+          "fax": "string",
+          "street": "string",
+          "mobile": "string",
+          "postcode": "string",
+          "place": "string"
+        },
+        "flatEmptyInd": true
+      }
+    ],
+    "owners": [
+      {
+        "ownerId": 0,
+        "startDate": "string",
+        "endDate": "string",
+        "adminNumber": "string",
+        "contact": {
+          "firstName": "string",
+          "lastName": "string",
+          "email": "string",
+          "phone": "string",
+          "fax": "string",
+          "street": "string",
+          "mobile": "string",
+          "postcode": "string",
+          "place": "string"
+        },
+        "nameChange": {
+          "name": "string",
+          "newName": "string",
+          "userChangedInd": true
+        }
+      }
+    ]
+  },
+  "consumptionAnalysisInd": true,
+  "confirmTheCompletenessInd": true
+}

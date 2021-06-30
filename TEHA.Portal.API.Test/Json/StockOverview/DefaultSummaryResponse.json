@@ -1,0 +1,62 @@
+{
+  "status": "OK",
+  "message": "",
+  "data": {
+    "userId": 28884,
+    "buildingsCount": 19,
+    "flatsCount": 770,
+    "metersCount": 4915,
+    "metersByType": [
+      {
+        "count": 448,
+        "status": "OK",
+        "type": "HEAT_METER"
+      },
+      {
+        "count": 650,
+        "status": "OK",
+        "type": "HOT_WATER_METER"
+      },
+      {
+        "count": 73,
+        "status": "OK",
+        "type": "SMOKE_DETECTOR"
+      },
+      {
+        "count": 240,
+        "status": "Error",
+        "type": "COLD_WATER_METER"
+      },
+      {
+        "count": 562,
+        "status": "Error",
+        "type": "HEAT_COST_ALLOCATOR"
+      },
+      {
+        "count": 14,
+        "status": "Error",
+        "type": "HEAT_METER"
+      },
+      {
+        "count": 2,
+        "status": "OK",
+        "type": "OTHER"
+      },
+      {
+        "count": 2069,
+        "status": "OK",
+        "type": "HEAT_COST_ALLOCATOR"
+      },
+      {
+        "count": 86,
+        "status": "Error",
+        "type": "HOT_WATER_METER"
+      },
+      {
+        "count": 771,
+        "status": "OK",
+        "type": "COLD_WATER_METER"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "userId": 28376,
+  "propertyId": 39541,
+  "flatId": 568748,
+  "statementDate": "2020-06-15",
+  "currentUserName": "SammPaul",
+  "newUserName": "Kudvenkat",
+  "moveInDate": "2020-06-15",
+  "meterReadings": [
+    {
+      "meterId": 3173930,
+      "value": "500",
+      "image": ""
+    }
+  ],
+  "termsInd": true,
+  "costsInd": true,
+  "dataProtectionInd": true
+}

@@ -1,0 +1,33 @@
+{
+  "id": 67294,
+  "generalSetting": {
+    "accountingDocument": {
+      "notificationInd": true,
+      "communicationMedium": [ "Email" ]
+    },
+    "readingdates": {
+      "notificationInd": true,
+      "communicationMedium": [ "Email" ]
+    },
+    "readingAttempt": {
+      "notificationInd": true,
+      "communicationMedium": [ "Email" ]
+    },
+    "plumbingDates": {
+      "notificationInd": true,
+      "communicationMedium": [ "Email" ]
+    },
+    "plumbingReports": {
+      "notificationInd": true,
+      "communicationMedium": [ "Email" ]
+    },
+    "remainingLetters": {
+      "notificationInd": true,
+      "communicationMedium": [ "Email" ]
+    },
+    "invoice": {
+      "notificationInd": false,
+      "communicationMedium": []
+    }
+  }
+}
